@@ -15,7 +15,7 @@
 <!--scripts-->
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="UONYC2014.js"></script>
 
 
@@ -31,7 +31,7 @@
 <!--nav bar-->
 
 
-	<div class="afix-top" data-spy="afix" data-offset-top="10px" id="nav">
+	<div class="afix-top" id="nav">
 		
 		<ul>
 			<li li class="nav-list"></style>
@@ -39,8 +39,8 @@
 			</li>
 
 			<li class="nav-list">
-				<a class="nav-id" href="#feed">FEED</a>
-			</li class="nav-list">
+				<a class="nav-id nav-feed" href="#feed">FEED</a>
+			</li class>
 
 			<li class="nav-list">
 				<a class="nav-id" href="#bios">BIOS</a>
@@ -51,28 +51,29 @@
 	</div>
 
 
+
+
 <!--map/buttons/info-->
+		
+	<div id="locations">
 
+		<div id="map">
 
-	<div id="map">
+			<div class="days">
+				<button type="button"><h2>MON</h2></button>
+				<button type="button"><h2>TUES</h2></button>
+				<button type="button"><h2>WED</h2></button>
+				<button type="button"><h2>THU</h2></button>
+				<button type="button"><h2>FRI</h2></button>
+			</div>
 
-		<img id="map-photo" src="http://i.imgur.com/jWu2OF7.jpg?1">
-
-
-
-		<div class="days"><center>
-			<button type="button"><h2>MON</h2></button>
-			<button type="button"><h2>TUES</h2></button>
-			<button type="button"><h2>WED</h2></button>
-			<button type="button"><h2>THU</h2></button>
-			<button type="button"><h2>FRI</h2></button>
-		</center>
+			<img id="map-photo" src="http://i.imgur.com/jWu2OF7.jpg?1">
+	
 		</div>
 
+		<div class="map-info"></div>
+
 	</div>
-
-
-	<div class="map-info"></div>
 
 
 <!--feeds-->
@@ -92,45 +93,481 @@
 	
 	<ul id="bios">
 
-		
-		<li class="bio-box" id="Neil-Kirkpatrick"></li>
+		<li class="bio-box" id="Neil-Kirkpatrick">
 
-		<li class="bio-box" id="Kelly Vigil"></li>
+				<img src="http://placekitten.com/300/300">
 
-		<li class="bio-box" id="Myray Reams"></li>
+				<div class="inner">
 
-		<li class="bio-box" id="Hannah Tabor"></li>
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
 
-		<li class="bio-box" id="Cam Twombly"></li>
+		</li>
 
-		<li class="bio-box" id="Spencer Adrian"></li>
+		<li class="bio-box" id="Kelly-Vigil">
 
-		<li class="bio-box" id="Sydney Madge"></li>
+			<img src="http://placekitten.com/300/300">
 
-		<li class="bio-box" id="Austin Powe"></li>
+				<div class="inner">
+					
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
 
-		<li class="bio-box" id="Hellen Torny"></li>
+				</div>
 
-		<li class="bio-box" id="Neil-Kirkpatrick"></li>
+		</li>
 
-		<li class="bio-box" id="Kelly Vigil"></li>
+		<li class="bio-box" id="Myray-Reams">
 
-		<li class="bio-box" id="Myray Reams"></li>
+			<img src="http://placekitten.com/300/300">
 
-		<li class="bio-box" id="Hannah Tabor"></li>
+				<div class="inner">
 
-		<li class="bio-box" id="Cam Twombly"></li>
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
 
-		<li class="bio-box" id="Spencer Adrian"></li>
+				</div>
 
-		<li class="bio-box" id="Sydney Madge"></li>
+		</li>
 
-		<li class="bio-box" id="Austin Powe"></li>
+		<li class="bio-box" id="Hannah-Tabor">
 
-		<li class="bio-box" id="Hellen Torny"></li>
+			<img src="http://placekitten.com/300/300">
 
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Cam-Twombly">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Spencer-Adrian">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Sydney-Madge">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Austin-Powe">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Hellen-Torny">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Neil-Kirkpatrick">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Kelly-Vigil">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Myray-Reames">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Hannah-Tabor">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Cam-Twombly">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Spencer-Adrian">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Sydney-Madge">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Austin-Powe">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Helen-Torny">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Neil-Kirkpatrick">
+
+				<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Kelly-Vigil">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+					
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Myray-Reams">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Hannah-Tabor">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Cam-Twombly">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Spencer-Adrian">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Sydney-Madge">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Austin-Powe">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Hellen-Torny">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Neil-Kirkpatrick">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Kelly-Vigil">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Myray-Reames">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Hannah-Tabor">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Cam-Twombly">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Spencer-Adrian">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Sydney-Madge">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Austin-Powe">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+		<li class="bio-box" id="Helen-Torny">
+
+			<img src="http://placekitten.com/300/300">
+
+				<div class="inner">
+
+					<img src="https://pbs.twimg.com/profile_images/423021353143267328/ap5LhnER_bigger.jpeg">
+					Hi I'm <a href='https://twitter.com/following' target="_blank">Kelly</a>!
+					
+				</div>
+
+		</li>
+
+	</ul>
+
+
+
+	<div class="lightbox-wrapper">
+		<div class="lightbox">
 	</div>
-		
 
 </body>
 

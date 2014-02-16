@@ -1,8 +1,7 @@
-
 h2{
 
   text-align: center;
-  font-size: 3em;
+  font-size: 200%;
 
 }
 
@@ -19,6 +18,9 @@ p{
 
  }
 
+.lightbox a {
+  font-size: 50px;
+}
  
 a{
   color: black;
@@ -30,20 +32,28 @@ a{
 
   width: 100%;
   height: 90%;
-  background-color: blue;
+  background: url("http://ih3.redbubble.net/image.13598736.5935/flat,550x550,075,f.u1.jpg");
+  background-size: cover;
 }
 
 
 .afix-top{
 
 }
+.fix-to-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
 
 
 #nav {
   width: 100%;
   height: 50px;
-  background-color: red;
+  background-color: blue;
   z-index: 1000;
+  margin-bottom: 20px;
 
 
 }
@@ -61,18 +71,56 @@ text-decoration: none;
 margin-left: 18%;
 
 }
-
 .nav-id {
   font-size: 3em;
 }
 
-#map{
+@media only screen and (max-width: 480px) {
+  .nav-id {
+    font-size: 1em;
+  }
+  .nav-feed {
+    display: none;
+  }
 
-  width:60%;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-id {
+    font-size: 2em;
+  }
+  
+}
+
+
+button{
+  background-color: white;
+  border: none;
+  margin-bottom: 4px;
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  #locations{
+    display: none;
+  }
+  
+}
+
+
+#locations{
+  width: 100%;
   height: 80%;
+  margin: 20px 0;
+}
+
+
+#map{
+  width:60%;
+  height: 100%;
   float: left;
-  border: 2px;
-  border-color: #F7F7F7;
+  position: relative;
 
 }
 
@@ -81,6 +129,7 @@ margin-left: 18%;
   height: 100%;
   width: auto;
   padding-left: 40%;
+  position: inherit ;
 
 }
 
@@ -92,24 +141,35 @@ margin-left: 18%;
   margin-top: 50px;
   margin-right: 40px;
 
+
 }
 
-button{
-  background-color: white;
-  border: none;
-  margin-bottom: 4px;
-}
 
 .map-info{
 
   width: 40%;
-  height: 80%;
+  height: 100%;
   background-color: #F7F7F7;
   float: right;
+  position: relative;
+
 
 }
 
+@media only screen and (max-width: 480px) {
+
+  #feed{ display: none;
+  }
+
+ }
+
+
+
 #feed{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  margin: 20px 0;
 
 }
 
@@ -159,23 +219,73 @@ button{
   width: 100%;
   height: 700px;
   text-align: center;
-  padding: 0;
-
-
+  float: bottom;
+  position: relative;
+  padding-bottom: 30px;
 
 }
 
+@media only screen and (max-width: 480px) {
+
+  .bio-box { max-width: 150px;
+              max-height: 150px;
+              margin: 10px;
+              color: black;
+              margin: 0, auto;
+              display: inline-block;
+              padding: 0;
+  }
+
+
+ }
 .bio-box{
 
-  width: 20%;
-  height: 250px;
-  min-width: 150px;
-  min-height: 150px;
-  margin: 10px;
+  max-width: 310px;
+  max-height: 310px;
+  margin: 40px;
   color: black;
   margin: 0, auto;
-  background-color: black;
   display: inline-block;
   padding: 0;
 }
 
+li img{
+
+    width: 100%;
+    height: 100%;
+
+  }
+
+
+
+.bio-box .inner {
+  display: none;
+
+}
+
+
+.lightbox {
+  position: fixed;
+  left: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  display: none;
+  z-index: 2000;
+  opacity: 1;
+  color: #333;
+  background: #FAFAFA;
+
+}
+
+.lightbox-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(30, 30, 30, 0.85);
+  z-index: 1000;
+  display: none;
+  
+}
