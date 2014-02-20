@@ -35,7 +35,7 @@ function sayHello(){
 $(document).ready(function() {
 
   $(window).scroll(function() {
-    if ($(window).scrollTop() >= $('.open-image').height()) {
+    if ($(window).scrollTop() >= $('.cover-image').height()) {
       $('.afix-top').addClass('fix-to-top');
     } else {
       $('.afix-top').removeClass('fix-to-top');
