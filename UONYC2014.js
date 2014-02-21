@@ -45,7 +45,7 @@ $(document).ready(function() {
 
 
 
-
+//bio lightboxes
 
   var show_lightbox = function(contents) {
     //console.log('show_lightbox');
@@ -80,4 +80,42 @@ $(document).ready(function() {
         hide_lightbox();
       }
     });
+
+//agency lightboxes
+
+var show_lightbox = function(contents) {
+    //console.log('show_lightbox');
+    window.light_box_active = true;
+    $('.lightbox-wrapper').css('display', 'block');
+    $('.lightbox').html(contents).css('display', 'block');    
+  }
+  var hide_lightbox = function() {
+    //console.log('hide_lightbox');
+    $('.lightbox-wrapper').css('display', 'none');
+    $('.lightbox').html('');  
+    window.light_box_active = false;
+  }
+
+  $('.mobile-agency').on('click', function(el) {      
+      var $inner = $(this).find('.inner');
+      //var $inner_img = $inner.find('img');
+      //console.log($inner_img);
+      //var $inner_img.attr('src', '');
+      var html = $inner.html();
+      //console.log(html);      
+      show_lightbox(html);
+      //var name = $inner.find('h2').text();
+      //console.log('name', name);
+      
+    });
+    $('.lightbox').on('click', function(e) {
+      e.stopPropagation();
+    })
+    $('.lightbox-wrapper').on('click', function(el) {
+      if (window.light_box_active === true) {
+        hide_lightbox();
+      }
+    });
+
+
 });   
