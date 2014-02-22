@@ -352,16 +352,15 @@ li img{
 
   }
 
+.bio-name{
+  height: auto;
+}
 
-.bio-pic{
-    width: 200px;
-    height: 200;
-    float: center;
-    
+.bio-name p{
+  text-align: center;
+  font-size: 3em;
+}
 
-
-
-  }
 
 .inner{
   position: fixed;
@@ -373,17 +372,28 @@ li img{
 
 }
 
+.bio-pic{
+    width: 200px;
+    height: 200;
+    margin-left: 10%;
+    margin-top: 50px;
+
+  }
+
 .inner-bio-text {
-  width: 50%;
+  width: auto;
+  position: absolute;
   float: right;
-  padding-top: 100px;
+  padding: 10px 10px 0 10px;
+
 
 }
 
 .inner-bio-text p {
-  width: 400px;
+  width: 100%;
   height: auto;
   text-align: justify-center;
+  overflow: none;
 }
 
 .bio-box .inner {
@@ -414,8 +424,8 @@ li img{
   display: none;
   z-index: 2000;
   opacity: 1;
-  color: #333;
-  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: rgba(0, 0, 0, 1);
 
 }
 
@@ -425,7 +435,7 @@ li img{
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.75);
   z-index: 1000;
   display: none;
   
