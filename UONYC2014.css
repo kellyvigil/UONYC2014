@@ -354,17 +354,36 @@ li img{
 
 
 .bio-pic{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200;
+    float: center;
+    
+
 
 
   }
 
 .inner{
+  position: fixed;
+  right:9%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+
+
 }
 
-.inner-bio-text{
-  
+.inner-bio-text {
+  width: 50%;
+  float: right;
+  padding-top: 100px;
+
+}
+
+.inner-bio-text p {
+  width: 400px;
+  height: auto;
+  text-align: justify-center;
 }
 
 .bio-box .inner {
@@ -372,10 +391,17 @@ li img{
 
 }
 
-.inner p {
-  width: 400px;
-  height: auto;
-  text-align: justify-right;
+
+.bio-insta{
+
+}
+
+.bio-twitter{
+
+}
+
+.bio-portfolio{
+
 }
 
 
@@ -389,7 +415,7 @@ li img{
   z-index: 2000;
   opacity: 1;
   color: #333;
-  background: #FAFAFA;
+  background: rgba(0, 0, 0, 0.5);
 
 }
 
@@ -399,7 +425,7 @@ li img{
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(30, 30, 30, 0.85);
+  background: rgba(255, 255, 255, 0.6);
   z-index: 1000;
   display: none;
   
