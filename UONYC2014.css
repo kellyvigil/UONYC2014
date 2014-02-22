@@ -4,16 +4,6 @@ body{
 }
 
 
-/* MOBILE */
-
-@media only screen and (min-width: 481px) {
-  #mobile-calendar {
-    display: none;
-  }
-}
-
-
-
 /* UNIVERSAL */
 
 h2{
@@ -190,6 +180,12 @@ button{
 
 /* MOBILE AGENCIES */
 
+@media only screen and (min-width: 481px) {
+  #mobile-calendar {
+    display: none;
+  }
+}
+
 #mobile-calendar{
 
   width: 100%;
@@ -219,6 +215,16 @@ button{
   width: 400px;
   height: auto;
 
+}
+
+.mobile-day{
+  font-size: 30px;
+  text-align: center;
+  font-family: Garamond;
+}
+
+.mobile-agency{
+  text-align: center;
 }
 
 
@@ -351,8 +357,15 @@ li img{
     width: 400px;
     height: 400px;
 
+
   }
 
+.inner{
+}
+
+.inner-bio-text{
+  
+}
 
 .bio-box .inner {
   display: none;
@@ -362,7 +375,7 @@ li img{
 .inner p {
   width: 400px;
   height: auto;
-
+  text-align: justify-right;
 }
 
 

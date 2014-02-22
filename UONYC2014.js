@@ -97,7 +97,7 @@ var show_lightbox = function(contents) {
   }
 
   $('.mobile-agency').on('click', function(el) {      
-      var $inner = $(this).find('.inner');
+      var $inner = $(this).find('.agency-inner');
       //var $inner_img = $inner.find('img');
       //console.log($inner_img);
       //var $inner_img.attr('src', '');
