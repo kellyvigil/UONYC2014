@@ -7,13 +7,13 @@ $.getJSON(url).success(function(response) {
         var photo_el = "<li class='ig'><a href='" + photo.link + "'><img src='" + photo.images.standard_resolution.url + "' /><p>" + photo.caption.text + "</p></a></div>";
         $('.main').append(photo_el);
         console.log(photo);
-	});
+  });
 }).error(function(error) {
     alert(error);
 });
 
 function sayHello(){
-	var userName = document.getElementById('monday').innerHTML = '<img class="agency" src="">';
+  var userName = document.getElementById('monday').innerHTML = '<img class="agency" src="">';
 }
 
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
