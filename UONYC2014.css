@@ -41,7 +41,7 @@ a{
 
 .cover-image{
 
-  width: 100%;
+  width: auto;
   height: 90%;
   background: url("http://ih3.redbubble.net/image.13598736.5935/flat,550x550,075,f.u1.jpg");
   background-size: cover;
@@ -317,6 +317,7 @@ button{
     margin: 0, auto;
     display: inline-block;
     padding: 0;
+    box-shadow:0px 1px 12px 0px gray;  
 
   }
 
