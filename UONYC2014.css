@@ -4,7 +4,7 @@ body{
 }
 
 
-/* UNIVERSAL */
+/* UNIVERSAL --------------------------*/
 
 h2{
 
@@ -37,7 +37,7 @@ a{
 }
 
 
-/* COVER */
+/* COVER --------------------------*/
 
 .cover-image{
 
@@ -46,10 +46,14 @@ a{
   background: url("http://ih3.redbubble.net/image.13598736.5935/flat,550x550,075,f.u1.jpg");
   background-size: cover;
   overflow: none;
+  background-attachment: fixed;
+
 }
 
 
-/* NAV BAR */
+
+
+/* NAV BAR --------------------------*/
 
 .afix-top{
 
@@ -115,7 +119,7 @@ margin-left: 18%;
 }
 
 
-/* AGENCIES */
+/* AGENCIES --------------------------*/
 
 @media only screen and (max-width: 480px) {
   #agencies {
@@ -143,7 +147,7 @@ margin-left: 18%;
   height: 100%;
   width: auto;
   padding-left: 40%;
-  position: inherit ;
+  position: inherit ;
   float: left;
 
 }
@@ -178,7 +182,7 @@ button{
 }
 
 
-/* MOBILE AGENCIES */
+/* MOBILE AGENCIES-------------------------- */
 
 @media only screen and (min-width: 481px) {
   #mobile-calendar {
@@ -230,7 +234,7 @@ button{
 
 
 
-/* FEED */
+/* FEED --------------------------*/
 
 @media only screen and (max-width: 480px) {
 
@@ -291,7 +295,7 @@ button{
  
 }
 
-/* BIOS */
+/* BIOS --------------------------*/
 
 #bios{
 
@@ -307,29 +311,7 @@ button{
 
 }
 
-@media only screen and (min-width: 481px) {
 
-  .bio-box {  
-    width: 310px;
-    height: 310px;
-    margin: 40px;
-    color: black;
-    margin: 0, auto;
-    display: inline-block;
-    padding: 0;
-    box-shadow:0px 1px 12px 0px gray;  
-
-  }
-
-li img{
-
-    width: 150px;
-    height: 150px;
-  }
-
-
-
- }
 
 
 .bio-box{
@@ -345,7 +327,6 @@ li img{
 }
 
 
-
 li img{
 
     width: 100%;
@@ -355,11 +336,14 @@ li img{
 
 .bio-name{
   height: auto;
+
 }
 
 .bio-name p{
   text-align: center;
   font-size: 3em;
+  color: white;
+
 }
 
 
@@ -370,21 +354,93 @@ li img{
   width: 80%;
   height: 80%;
 
+}
+
+.bio-pic {
+
+  width: 30%;
+  height: auto;
+  margin: 7% 0 0 10%;
+}
+
+.inner-bio-text {
+  max-width: 50%;
+  height: auto;
+  float: right;
+  margin: 7% 0 0 0;
+  padding: 0 10% 0 10px;
 
 }
 
-.bio-pic{
-    width: 200px;
-    height: 200px;
-    margin-left: 10%;
-    margin-top: 50px;
+.inner-bio-text p {
+  color: black;
+  width: 100%;
+  height: auto;
+  text-align: justify-center;
+  overflow: none;
 
-  }
+}
+
+.bio-box .inner {
+  display: none;
+
+}
+
+.bio-icons {
+  width: 100%;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bio-icons li{
+  display: inline-block;
+}
+
+.bio-insta {
+  width: 70px;
+  height: 70px;
+  margin: 0 10% 2% 10%;
+  
+ 
+}
+
+.bio-twitter {
+  width: 70px;
+  height: 70px;
+  margin: 0 10% 2% 10%;
+
+}
+
+.bio-portfolio {
+  width: 70px;
+  height: 70px;
+  margin: 0 10% 2% 10%;
+  
+}
+
+.bio-insta img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-twitter img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-portfolio img{
+  width: 100%;
+  height: 100%;
+} 
 
 
-/* Mobile Bios */
 
-  @media only screen and (max-width: 481px) {
+
+/* Mobile Bios-------------------------- */
+
+  @media only screen and (max-width: 480px) {
 
 .bio-pic{
   position: relative;
@@ -463,62 +519,7 @@ li img{
 
 }
 
-/* Bios Not Mobile */
 
-.inner-bio-text {
-  width: auto;
-  position: absolute;
-  float: right;
-  padding: 10px 10px 0 10px;
-
-
-}
-
-.inner-bio-text p {
-  width: 100%;
-  height: auto;
-  text-align: justify-center;
-  overflow: none;
-}
-
-.bio-box .inner {
-  display: none;
-
-}
-
-.bio-icons{
-  display: inline-block;
-}
-
-.bio-insta {
-  width: 70px;
-  height: 70px;
-}
-
-.bio-twitter {
-  width: 70px;
-  height: 70px;
-}
-
-.bio-portfolio {
-  width: 70px;
-  height: 70px;
-}
-
-.bio-insta img{
-  width: 100%;
-  height: 100%;
-}
-
-.bio-twitter img{
-  width: 100%;
-  height: 100%;
-}
-
-.bio-portfolio img{
-  width: 100%;
-  height: 100%;
-}
 
 
 .lightbox {
@@ -530,8 +531,9 @@ li img{
   display: none;
   z-index: 2000;
   opacity: 1;
-  color: white;
-  background-color: rgba(0, 0, 0, 1);
+  color: 333;
+  background-color: rgba(0, 0, 0, .5);
+
 
 }
 
