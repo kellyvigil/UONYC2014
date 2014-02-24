@@ -375,9 +375,23 @@ li img{
 
 .bio-pic{
     width: 200px;
-    height: 200;
+    height: 200px;
     margin-left: 10%;
     margin-top: 50px;
+
+  }
+
+
+/* Mobile Bios */
+
+  @media only screen and (max-width: 481px) {
+
+.bio-pic{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 25px;
 
   }
 
@@ -402,17 +416,108 @@ li img{
 
 }
 
+.bio-icons{
+  display: inline-block;
+  height: 200px;
+  width: 80px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 17px;
 
-.bio-insta{
+ 
+}
+
+.bio-insta {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 28px;
+}
+
+.bio-twitter {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 28px;
+}
+
+.bio-portfolio {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 28px;
+}
+
+.bio-insta img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-twitter img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-portfolio img{
+  width: 100%;
+  height: 100%;
+}
+
 
 }
 
-.bio-twitter{
+/* Bios Not Mobile */
+
+.inner-bio-text {
+  width: auto;
+  position: absolute;
+  float: right;
+  padding: 10px 10px 0 10px;
+
 
 }
 
-.bio-portfolio{
+.inner-bio-text p {
+  width: 100%;
+  height: auto;
+  text-align: justify-center;
+  overflow: none;
+}
 
+.bio-box .inner {
+  display: none;
+
+}
+
+.bio-icons{
+  display: inline-block;
+}
+
+.bio-insta {
+  width: 70px;
+  height: 70px;
+}
+
+.bio-twitter {
+  width: 70px;
+  height: 70px;
+}
+
+.bio-portfolio {
+  width: 70px;
+  height: 70px;
+}
+
+.bio-insta img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-twitter img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-portfolio img{
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -437,7 +542,7 @@ li img{
   top: 0;
   bottom: 0;
   background: rgba(255, 255, 255, 0.75);
-  z-index: 1000;
+  z-index: 1005;
   display: none;
   
 }
