@@ -94,7 +94,7 @@ margin-left: 18%;
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .nav-id {
     font-size: 1em;
   }
@@ -104,14 +104,14 @@ margin-left: 18%;
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   .nav-id {
     font-size: 2em;
   }
   
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   #locations{
     display: none;
   }
@@ -121,7 +121,7 @@ margin-left: 18%;
 
 /* AGENCIES --------------------------*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   #agencies {
     display: none;
   }
@@ -184,7 +184,7 @@ button{
 
 /* MOBILE AGENCIES-------------------------- */
 
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 769px) {
   #mobile-calendar {
     display: none;
   }
@@ -236,7 +236,7 @@ button{
 
 /* FEED --------------------------*/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 
   #feed{ display: none;
   }
@@ -440,7 +440,7 @@ li img{
 
 /* Mobile Bios-------------------------- */
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 768px) {
 
 .bio-pic{
   position: relative;
