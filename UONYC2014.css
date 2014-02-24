@@ -360,19 +360,19 @@ li img{
 
   width: 30%;
   height: auto;
-  margin: 7% 0 0 10%;
+  margin: 40px 0 0 10%;
 }
 
-.inner-bio-text {
+.inner-bio {
   max-width: 50%;
   height: auto;
   float: right;
-  margin: 7% 0 0 0;
+  margin: 40px 0 0 0;
   padding: 0 10% 0 10px;
 
 }
 
-.inner-bio-text p {
+.inner-bio p {
   color: black;
   width: 100%;
   height: auto;
@@ -389,7 +389,7 @@ li img{
 .bio-icons {
   width: 100%;
   display: inline-block;
-  float: right;
+  padding: 0;
   text-align: center;
   margin-top: 20px;
 }
@@ -401,7 +401,7 @@ li img{
 .bio-insta {
   width: 70px;
   height: 70px;
-  margin: 0 10% 2% 10%;
+  margin: 0 10px ;
   
  
 }
@@ -409,14 +409,14 @@ li img{
 .bio-twitter {
   width: 70px;
   height: 70px;
-  margin: 0 10% 2% 10%;
+  margin: 0 10px ;
 
 }
 
 .bio-portfolio {
   width: 70px;
   height: 70px;
-  margin: 0 10% 2% 10%;
+  margin: 0 10px ;
   
 }
 
@@ -442,29 +442,31 @@ li img{
 
   @media only screen and (max-width: 768px) {
 
-.bio-pic{
-  position: relative;
-  width: 250px;
-  height: 250px;
-  margin-left: 20px;
-  margin-top: 25px;
+.bio-pic {
 
-  }
+  width: 30%;
+  height: auto;
+  margin-top:40px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.inner-bio-text {
-  width: auto;
-  position: absolute;
+.inner-bio {
+  max-width: 100%;
+  height: 200px;
   float: right;
-  padding: 10px 10px 0 10px;
-
+  margin: 10px 0 0 0;
+  padding: 0 10px 0 10px;
 
 }
 
-.inner-bio-text p {
+.inner-bio p {
+  color: black;
   width: 100%;
   height: auto;
   text-align: justify-center;
   overflow: none;
+
 }
 
 .bio-box .inner {
@@ -475,7 +477,7 @@ li img{
 .bio-icons{
   display: inline-block;
   height: 200px;
-  width: 80px;
+  width: 100%;
   float: right;
   margin-right: 10px;
   margin-top: 17px;
@@ -486,19 +488,23 @@ li img{
 .bio-insta {
   width: 70px;
   height: 70px;
-  margin-bottom: 28px;
+  margin: 0 10px ;
+  
+ 
 }
 
 .bio-twitter {
   width: 70px;
   height: 70px;
-  margin-bottom: 28px;
+  margin: 0 10px ;
+
 }
 
 .bio-portfolio {
   width: 70px;
   height: 70px;
-  margin-bottom: 28px;
+  margin: 0 10px ;
+  
 }
 
 .bio-insta img{
