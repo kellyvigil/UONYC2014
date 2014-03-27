@@ -45,6 +45,7 @@ $(document).ready(function() {
 
 
 
+
 //bio lightboxes
 
   var show_lightbox = function(contents) {
