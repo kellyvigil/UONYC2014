@@ -28,9 +28,15 @@ function sayHello(){
     }
   })
 */
+$(document).ready(function() {
+  $("button").click(function() {
+      var id = $(this).attr("id");
+      $("#agencies-list div").css("display", "none");
+      $("#agencies-list div#" + id + "").css("display", "");
 
-
-
+      $("#agencies-list div:not(#01)").css("display", "none");
+  });
+});
 
 $(document).ready(function() {
 
@@ -46,7 +52,7 @@ $(document).ready(function() {
 
 
 
-//bio lightboxes
+//bio lightboxes 
 
   var show_lightbox = function(contents) {
     //console.log('show_lightbox');
