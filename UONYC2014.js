@@ -54,6 +54,7 @@ function sayHello(){
     var details_html = $(this).parent().find('.details').html();
     $('#map-info').html( details_html );
   }); 
+  
 
 
   /*$(".agency-info").css("display","none")
