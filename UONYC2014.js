@@ -1,3 +1,6 @@
+
+$(document).ready(function() {
+
 var tag = "UONYC2013";
 var url = "https://api.instagram.com/v1/tags/"+tag+"/media/recent?client_id=bd5b06bec64b41f9a9d75aba40c05962&callback=?"
 
@@ -26,25 +29,51 @@ function sayHello(){
         return (this.bottom = $('.bs-footer').outerHeight(true))
       }
     }
-  })
-*/
-$(document).ready(function() {
-  $("button").click(function() {
+  })//*/
+
+  $(".agencies-monday").css("display","none")
+  $(".agencies-tuesday").css("display","none")
+  $(".agencies-wednesday").css("display","none")
+  $(".agencies-thursday").css("display","none")
+  $(".agencies-friday").css("display","none")
+
+  $(".days button").click(function() {    
+      console.log(this, $(this));
       var id = $(this).attr("id");
-      $("#agencies-list div").css("display", "none");
-      $("#agencies-list div#" + id + "").css("display", "");
+      console.log($(this).attr('data-show-day'))
+      
 
-      $("#agencies-list div:not(#01)").css("display", "none");
+      $('#agencies-list').children().hide()
+      $($(this).attr('data-show-day')).show();
+
+      //$("#agencies-list div").css("display", "none");
+      //$("#agencies-list div#" + id + "").css("display", "");
   });
-});
 
-$(document).ready(function() {
+  $('#agencies-list button').click(function() {
+    var details_html = $(this).parent().find('.details').html();
+    $('#map-info').html( details_html );
+  }); 
+
+
+  /*$(".agency-info").css("display","none")
+  $(".agency-info2").css("display","none")
+  $(".button-z").click(function() {
+      var id = $(this).attr("id");
+      $("#map-info div").css("display", "none");
+      $("#map-info div#" + id + "").css("display", "");
+  });*/
+
+
+
 
   $(window).scroll(function() {
     if ($(window).scrollTop() >= $('.cover-image').height()) {
       $('.afix-top').addClass('fix-to-top');
+      $("#agencies").css('margin-top', '50px');
     } else {
       $('.afix-top').removeClass('fix-to-top');
+      $("#agencies").css('margin-top', '0px');
     }
   });
 

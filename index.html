@@ -62,27 +62,27 @@
 		<div id="map">
 
 			<div class="days">
-				<button type="button" id="01" class="button-home">
+				<button type="button" class="button-home">
 					<h2>HOME</h2>
 				</button>
 
-				<button type="button" id="02" class="button-monday">
+				<button type="button" class="button-monday" data-show-day=".agencies-monday">
 					<h2>MON</h2>
 				</button>
 
-				<button type="button" id="03" class="button-tuesday">
+				<button type="button" class="button-tuesday" data-show-day=".agencies-tuesday">
 					<h2>TUES</h2>
 				</button>
 
-				<button type="button" id="04" class="button-wednesday">
+				<button type="button" class="button-wednesday"  data-show-day=".agencies-wednesday">
 					<h2>WED</h2>
 				</button>
 
-				<button type="button" id="05" class="button-thursday">
+				<button type="button" class="button-thursday" data-show-day=".agencies-thursday">
 					<h2>THU</h2>
 				</button>
 
-				<button type="button" id="06" class="button-friday">
+				<button type="button" class="button-friday" data-show-day=".agencies-friday">
 					<h2>FRI</h2>
 				</button>
 			</div>
@@ -90,57 +90,80 @@
 
 			<div id="agencies-list">
 
-				<div class="agencies-home" id="01">
+				<div class="agencies-home">
 
 				</div>
 
-				<div class="agencies-monday" id"02">
+				<div class="agencies-monday">
 
-					<div class="agency-monday" id="BBDO">BBDO</div>
-					<div class="agency-monday" id="BBDO">JWT</div>
-					<div class="agency-monday" id="BBDO"></div>
-					<div class="agency-monday" id="BBDO"></div>
-					<div class="agency-monday" id="BBDO"></div>
+					<div class="agency-monday">
+						<button type="button" class="show-detail">
+							<h2>BBDO</h2>
+						</button>
+						<div class="details">
+							BBDO shit!
+						</div>
+					</div>
 
-				</div>
+					<div class="agency-monday">
+						<button type="button-z" class="show-detail">
+							<h2>JWT</h2>
+						</button>
+						<div class="details">
+							<img src="http://25.media.tumblr.com/16c17901bff6df80972279646fdeae30/tumblr_n2x3y0OVuD1s199fdo1_500.gif">
+						</div>
+					</div>
 
-				<div class="agencies-tuesday" id="03">
-
-					<div class="agency-tuesday" id="BBDO">swag</div>
-					<div class="agency-tuesday" id="BBDO">swag</div>
-					<div class="agency-tuesday" id="BBDO"></div>
-					<div class="agency-tuesday" id="BBDO"></div>
-					<div class="agency-tuesday" id="BBDO"></div>
-
-				</div>
-
-				<div class="agencies-wednesday" id="04">
-
-					<div class="agency-wednesday" id="BBDO"></div>
-					<div class="agency-wednesday" id="BBDO"></div>
-					<div class="agency-wednesday" id="BBDO"></div>
-					<div class="agency-wednesday" id="BBDO"></div>
-					<div class="agency-wednesday" id="BBDO"></div>
-
-				</div>
-
-				<div class="agencies-thursday" id="05">
-
-					<div class="agency-thursday" id="BBDO"></div>
-					<div class="agency-thursday" id="BBDO"></div>
-					<div class="agency-thursday" id="BBDO"></div>
-					<div class="agency-thursday" id="BBDO"></div>
-					<div class="agency-thursday" id="BBDO"></div>
+					<div class="agency-monday">
+						<button type="button-z" class="show-detail">
+							<h2>BLAH</h2>
+						</button>
+						<div class="details">
+							<h1>Boo</h1>
+						</div>
+					</div>
+					<div class="agency-monday"></div>
+					<div class="agency-monday"></div>
 
 				</div>
 
-				<div class="agencies-friday" id="06">
+				<div class="agencies-tuesday">
 
-					<div class="agency-friday" id="BBDO"></div>
-					<div class="agency-friday" id="BBDO"></div>
-					<div class="agency-friday" id="BBDO"></div>
-					<div class="agency-friday" id="BBDO"></div>
-					<div class="agency-friday" id="BBDO"></div>
+					<div class="agency-tuesday">DDB</div>
+					<div class="agency-tuesday">swag</div>
+					<div class="agency-tuesday"></div>
+					<div class="agency-tuesday"></div>
+					<div class="agency-tuesday"></div>
+
+				</div>
+
+				<div class="agencies-wednesday">
+
+					<div class="agency-wednesday"></div>
+					<div class="agency-wednesday"></div>
+					<div class="agency-wednesday"></div>
+					<div class="agency-wednesday"></div>
+					<div class="agency-wednesday"></div>
+
+				</div>
+
+				<div class="agencies-thursday">
+
+					<div class="agency-thursday"></div>
+					<div class="agency-thursday"></div>
+					<div class="agency-thursday"></div>
+					<div class="agency-thursday"></div>
+					<div class="agency-thursday"></div>
+
+				</div>
+
+				<div class="agencies-friday">
+
+					<div class="agency-friday"></div>
+					<div class="agency-friday"></div>
+					<div class="agency-friday"></div>
+					<div class="agency-friday"></div>
+					<div class="agency-friday"></div>
 
 				</div>
 
@@ -148,20 +171,7 @@
 	
 		</div>
 
-		<div class="map-info">
-
-			<div class="map-agencies" id="map-agencies-monday">
-			</div>
-			<div class="map-agencies" id="map-agencies-tuesday">
-			</div>
-			<div class="map-agencies" id="map-agencies-wednesday">
-			</div>
-			<div class="map-agencies" id="map-agencies-thursday">
-			</div>
-			<div class="map-agencies" id="map-agencies-friday">
-			</div>
-
-
+		<div id="map-info">
 		</div>
 
 	</div>
