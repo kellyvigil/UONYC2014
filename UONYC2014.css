@@ -110,25 +110,22 @@ text-decoration: none;
     display: none;
   }
 
-}
-
-@media only screen and (max-width: 768px) {
-  .nav-id {
-    font-size: 2em;
-  }
-  
-}
-
-@media only screen and (max-width: 768px) {
   #locations{
     display: none;
   }
 
-  .nav-id-mobile{
+  .nav-mobile{
     display: ;
-  }
   
 }
+
+.nav-agencies {
+  display: none;
+}
+
+}
+
+
 
 
 /* AGENCIES --------------------------*/
