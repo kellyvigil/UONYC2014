@@ -64,6 +64,9 @@ a{
   top: 0;
 }
 
+.fix-to-top ul {
+  margin: 0 auto;
+}
 
 
 #nav {
