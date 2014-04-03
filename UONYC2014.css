@@ -99,6 +99,8 @@ text-decoration: none;
 @media only screen and (max-width: 768px) {
   .nav-id {
     font-size: 1em;
+    padding: 0px 10px;
+
   }
   .nav-feed {
     display: none;
