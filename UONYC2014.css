@@ -117,7 +117,7 @@ text-decoration: none;
     display: none;
   }
 
-  .nav-mobile{
+  .nav-mobile {
     display: ;
   
 }
@@ -344,6 +344,11 @@ button:hover {
 @media only screen and (min-width: 769px) {
   #mobile-calendar {
     display: none;
+  }
+
+    .nav-mobile{
+    display: none;
+  
   }
 }
 
