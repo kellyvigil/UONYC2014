@@ -67,7 +67,7 @@ a{
 }
 
 .title p{
-  padding-top: 10%;
+  padding-top: %;
   font-size: 7em;
   text-align: center;
 }
@@ -82,6 +82,7 @@ a{
   .cover-image {
     overflow: hidden;
   }
+
   .cover-image img {
   height: 100%;
   width: auto;
@@ -97,8 +98,6 @@ a{
   margin: 0 auto;
   font-size: 5em;
   text-align: center;
-}
-  
 }
 
 }
