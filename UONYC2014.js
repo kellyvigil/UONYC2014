@@ -55,7 +55,10 @@ function sayHello(){
     $('#map-info').html( details_html );
   }); 
   
-
+  $('.button-home').click(function() {
+    var details_html = $(this).parent().find('.details').html();
+    /*$('#map-info').html('.agencies-home');*/
+  }); 
 
   /*$(".agency-info").css("display","none")
   $(".agency-info2").css("display","none")

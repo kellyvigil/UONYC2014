@@ -52,8 +52,9 @@ a{
 }
 
 .cover-image img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: -100px;
 
 
 }
@@ -107,7 +108,7 @@ a{
 /* NAV BAR --------------------------*/
 
 .afix-top{
-  z-index: 1000;
+  z-index: 1005;
 
 
 }
