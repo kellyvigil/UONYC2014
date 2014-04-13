@@ -85,6 +85,13 @@ a{
   .cover-image img {
   height: 100%;
   width: auto;
+}
+
+  .title p{
+  margin: 0 auto;
+  font-size: 5em;
+  text-align: center;
+}
   
 }
 
