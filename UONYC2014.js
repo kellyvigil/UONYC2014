@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-var tag = "UONYC2013";
+var tag = "UONYC2014";
 var url = "https://api.instagram.com/v1/tags/"+tag+"/media/recent?client_id=bd5b06bec64b41f9a9d75aba40c05962&callback=?"
 
 $.getJSON(url).success(function(response) {
