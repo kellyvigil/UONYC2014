@@ -60,6 +60,7 @@ a{
 /* NAV BAR --------------------------*/
 
 .afix-top{
+  z-index: 1000;
 
 }
 .fix-to-top {
