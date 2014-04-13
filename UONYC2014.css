@@ -87,6 +87,12 @@ a{
   width: auto;
 }
 
+  .title{
+    position: absolute;
+    width: 100%;
+    padding-top: 10%;
+  }
+
   .title p{
   margin: 0 auto;
   font-size: 5em;
