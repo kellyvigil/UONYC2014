@@ -87,7 +87,12 @@ $(document).scroll(function(e){
     var scrollPercent = (targetHeight - window.scrollY) / targetHeight;
     if(scrollPercent >= 0){
         target.css('opacity', scrollPercent);
-    }
+      }
+    if(scrollPercent <=.1){
+      target.css('display' , 'none')
+    } else{target.css('display' , '')
+     }
+    
 });
 
 
