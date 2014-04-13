@@ -63,18 +63,6 @@ a{
   z-index: 1000;
 
 }
-.fix-to-top {
-  position: fixed;
-  left: 0;
-  top: 0;
-}
-
-.fix-to-top ul {
-  margin: 0;
-  padding: 0;
-  display: block;
-}
-
 
 #nav {
   width: 100%;
@@ -87,11 +75,24 @@ a{
 
 }
 
+.fix-to-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.fix-to-top ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+
 a:hover{
   color: gray;
   text-decoration: none;
 }
-
 
 
 .nav-list{
