@@ -60,14 +60,13 @@ a{
 .title {
   position: fixed;
   width: 100%;
-  padding-top: ;
+  margin-top: 10%;
 
   
 
 }
 
 .title p {
-  padding-top: 10%;
   font-size: 7em;
   text-align: center;
 }
