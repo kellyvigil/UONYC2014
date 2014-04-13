@@ -79,6 +79,9 @@ a{
 @media only screen and (max-width: 768px) {
   
 
+  .cover-image {
+    overflow: hidden;
+  }
   .cover-image img {
   height: 100%;
   width: auto;
