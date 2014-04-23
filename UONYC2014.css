@@ -846,7 +846,7 @@ color: white;
 
 .bio-insta {
   width: 40px;
-  height: auto;
+  height: 40px;
   margin: 0 10px ;
   
  
@@ -854,14 +854,14 @@ color: white;
 
 .bio-twitter {
   width: 40px;
-  height: auto;
+  height: 40px;
   margin: 0 10px ;
 
 }
 
 .bio-portfolio {
   width: 40px;
-  height: auto;
+  height: 40px;
   margin: 0 10px ;
   
 }
