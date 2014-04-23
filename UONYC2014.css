@@ -622,12 +622,7 @@ button:hover {
 
 }
 
-#bios-mobile{
 
-display: none;
-
-
-}
 
 
 .bio-box{
@@ -764,12 +759,17 @@ color: white;
 
 
 /* Mobile Bios-------------------------- */
-
-  @media only screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) {
 
 #bios{
   display: none;
 }
+}
+
+
+  @media only screen and (max-width: 768px) {
+
+
 
 #bios-mobile{
   display: ;
