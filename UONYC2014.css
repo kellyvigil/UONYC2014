@@ -928,7 +928,7 @@ color: white;
   top: 10%;
   width: 80%;
 
-  height: 70%;
+  max-height: 70%;
   display: none;
   z-index: 2000;
   opacity: 1;
