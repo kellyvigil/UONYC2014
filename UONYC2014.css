@@ -818,6 +818,7 @@ color: white;
 }
 
 .bio-pic {
+  display: none;
 
   width: 60px;
   height: auto;
