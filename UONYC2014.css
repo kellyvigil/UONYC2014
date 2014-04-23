@@ -32,6 +32,7 @@ p{
  
 a{
   color: black;
+  
 
 
 }
@@ -621,6 +622,13 @@ button:hover {
 
 }
 
+#bios-mobile{
+
+display: none;
+
+
+}
+
 
 .bio-box{
 
@@ -709,8 +717,8 @@ li img{
 
 
 .bio-insta {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   margin: 0 10px ;
   
  
@@ -732,18 +740,25 @@ li img{
 
 .bio-insta img{
   width: 100%;
-  height: 100%;
+  height: auto;
+  
 }
 
 .bio-twitter img{
   width: 100%;
-  height: 100%;
+  height: auto;
+  
 }
 
 .bio-portfolio img{
   width: 100%;
-  height: 100%;
+  height: auto;
+  
 } 
+
+.inner-bio p{
+color: white;
+}
 
 
 
@@ -751,6 +766,22 @@ li img{
 /* Mobile Bios-------------------------- */
 
   @media only screen and (max-width: 768px) {
+
+#bios-mobile{
+  display: ;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  float: bottom;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: gray;
+
+
+}
 
 .bio-box{
 
