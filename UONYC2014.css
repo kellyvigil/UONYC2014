@@ -920,7 +920,7 @@ color: white;
   right:9%;
   top: 10%;
   width: 80%;
-  
+  max-height: 90%;
   height: 80%;
   display: none;
   z-index: 2000;
