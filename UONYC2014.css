@@ -627,8 +627,8 @@ button:hover {
 
 .bio-box{
 
-    width: 220px;
-    height: 220px;
+    width: 470px;
+    height: auto;
     margin: 5px;
     color: black;
     margin: 0, auto;
