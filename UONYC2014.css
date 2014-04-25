@@ -641,7 +641,7 @@ button:hover {
 li img{
 
     width: 100%;
-    height: 100%;
+    height: auto;
 
   }
 
@@ -670,7 +670,7 @@ li img{
 
 .bio-pic {
 
-  width: 30%;
+  width: 470px;
   height: auto;
   margin: 40px 0 0 10%;
 }
