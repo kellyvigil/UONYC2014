@@ -921,7 +921,7 @@ color: white;
   text-align: left;
   overflow: none;
   margin: 0 auto;
-  line-height: 1.2;
+  line-height: .8;
 
 }
 
@@ -989,7 +989,7 @@ color: white;
   right:9%;
   top: 10%;
   width: 80%;
-  height: 80%;
+  height: 85%;
   display: none;
   z-index: 2000;
   opacity: 1;
