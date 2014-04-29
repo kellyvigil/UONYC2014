@@ -82,6 +82,43 @@ function sayHello(){
     }
   });
 
+  /*$(window).scroll(function() {
+    if ($(window).scrollTop() >= $('#agencies').height()) {
+      $("#nav-agencies a").css('color', 'red');
+    
+    }
+    } else {
+      $("nav-agencies a").css('color', 'black');
+      $("nav-feed a").css('color', 'black');
+      $("nav-bios a").css('color', 'black');
+    }
+  });
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() >= $('#nav-feed').height()) {
+      
+      $("nav-feed a").css('color', 'red');
+      
+
+    } else {
+      $("nav-agencies a").css('color', 'black');
+      $("nav-feed a").css('color', 'black');
+      $("nav-bios a").css('color', 'black');
+    }
+  });
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() >= $('#nav-bios').height()) {
+      
+      $("nav-bios a").css('color', 'red');
+
+    } else {
+      $("nav-agencies a").css('color', 'black');
+      $("nav-feed a").css('color', 'black');
+      $("nav-bios a").css('color', 'black');
+    }
+  });*/
+
   
 
 var target = $('.title');
