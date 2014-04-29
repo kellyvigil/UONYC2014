@@ -915,7 +915,7 @@ color: white;
 }
 
 .inner-bio p {
-  color: black;
+  color: white;
   width: 90%;
   height: auto;
   text-align: left;
@@ -989,7 +989,7 @@ color: white;
   right:9%;
   top: 10%;
   width: 80%;
-  min-height: 450px;
+  
   height: 0%;
   display: none;
   z-index: 2000;
