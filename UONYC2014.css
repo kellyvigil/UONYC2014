@@ -904,10 +904,9 @@ color: white;
 
 .bio-pic {
   display: none;
-
   width: 60px;
   height: auto;
-  margin-top: 20px;
+  margin: 0 auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
