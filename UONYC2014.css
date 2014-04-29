@@ -931,11 +931,11 @@ color: white;
 
 .bio-icons{
   display: inline-block;
-  height: 200px;
+  height: auto;
   width: 100%;
   float: right;
   margin-right: 10px;
-  margin-top: ;
+  margin-top: 4px;
 
  
 }
