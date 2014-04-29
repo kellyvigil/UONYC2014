@@ -120,7 +120,7 @@ a{
 }
 
 .afix-top ul{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: block;
   text-align: center;
@@ -129,7 +129,7 @@ a{
 
 #nav {
   width: 100%;
-  height: 50px;
+  height: 30px;
   background-color: #F7F7F7;
   z-index: 1006;
   text-align: center;
@@ -167,11 +167,18 @@ a:hover{
 .nav-list{
 display: inline-block;
 text-decoration: none;
+height: auto;
 
 }
-.nav-id {
-  font-size: 3em;
-  padding: 0px 30px;
+.nav-id h2{
+  font-size: 2em;
+  padding: 0px 80px;
+  margin: 0 auto;
+  font-weight: 200;
+}
+
+.nav-id a{
+  height: 0;
 }
 
 
@@ -179,11 +186,14 @@ text-decoration: none;
 
 
 @media only screen and (max-width: 768px) {
-  .nav-id {
-    font-size: 2em;
-    padding: 0px 10px 0px 0px;
+  
 
-  }
+  .nav-id h2{
+  font-size: 2em;
+  font-weight: 200;
+  padding: 0px 18px;
+  margin: 0 auto;
+}
   .nav-feed {
     display: none;
   }
