@@ -1012,9 +1012,9 @@ color: white;
 .lightbox {
   position: fixed;
   right:9%;
-  top: 8%;
+  top: 9%;
   width: 80%;
-  height: 88%;
+  height: 89%;
   display: none;
   z-index: 2000;
   opacity: 1;
