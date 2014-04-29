@@ -653,6 +653,11 @@ button:hover {
 
 }
 
+.ig p {
+  font-size: 12px;
+  line-height: 1em;
+}
+
 .instagram-info{
   float: right;
    width: 48%;
@@ -674,7 +679,7 @@ button:hover {
 
 .ig{
   
-  width: 27%;
+  width: 48%;
   min-width: 200px;
   display: inline-block;
   position: relative;
