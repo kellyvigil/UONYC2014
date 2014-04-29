@@ -876,12 +876,16 @@ color: white;
 
     width: 180px;
     height: 180px;
-    margin: 5px;
     color: black;
     margin: 0, auto;
     display: inline-block;
     padding: 0;
 
+}
+
+.bio-box img{
+  width: 100%;
+  height: auto;
 }
 
 
