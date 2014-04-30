@@ -1,6 +1,6 @@
 body{
 
-  overflow-y: hidden;
+  
 }
 
 
@@ -267,6 +267,8 @@ button{
 
 }
 
+button:focus {outline:0;}
+
 button h2{
 
 }
@@ -462,6 +464,11 @@ button:hover {
   width: 100%;
   height: auto;
   
+}
+
+#WandK{
+  background-image: url(http://c0717682.cdn.cloudfiles.rackspacecloud.com/media/39606615514370ab751b4.jpg);
+  background-position:center; 
 }
 
 
