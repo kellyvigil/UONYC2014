@@ -228,13 +228,12 @@ height: auto;
 
 #agencies{
   width: 100%;
-  height: 600px;
+  height: 900px;
   padding-top: 50px;
   padding-right: 10px;
   padding-bottom: 20px; 
-  border-style: ;
-  border-width:1px;
-  border-color: black;
+ 
+  
 
 
 }
@@ -255,6 +254,7 @@ height: auto;
   height: 100%;
   float: left;
   margin-left: 40px;
+  margin-top: 20px;
   
 
 
@@ -281,15 +281,31 @@ button:hover {
   color: red;
 }
 
+.agency-button{
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+
+}
+
+
+
+.agency-button h2{
+
+  font-size: 60px;
+  line-height: .8em;
+}
+
 
 
 #agencies-list{
 
   width: 75%;
   height: 100%;
-  float: right;
+  float: left;
   margin: 0 auto;
   background-color: white;
+  margin-top: 20px;
 
 }
 
@@ -322,7 +338,7 @@ button:hover {
 .agency-monday{
 
   width: 100%;
-  height: 19%;
+  height: 11%;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -344,7 +360,7 @@ button:hover {
 .agency-tuesday{
 
   width: 100%;
-  height: 19%;
+  height: 11%;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -366,7 +382,7 @@ button:hover {
 .agency-wednesday{
 
   width: 100%;
-  height: 19%;
+  height: 11%;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -387,7 +403,7 @@ button:hover {
 .agency-thursday{
 
   width: 100%;
-  height: 19%;
+  height: 11%;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -410,7 +426,7 @@ button:hover {
 .agency-friday{
 
   width: 100%;
-  height: 19%;
+  height: 11%;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -423,18 +439,17 @@ button:hover {
 #map-info{
 
   width: 40%;
-  height: 100%;
+  height: 600px;
   background-color:;
   float: left;
-  position: ;
-  padding-left: 5px;
+  
   
 
 }
 
 .details{
   margin-right: 10px;
-  margin-top:-100px;
+  
 }
 
 #map-info h1{
@@ -532,6 +547,10 @@ button:hover {
 
 }
 
+#bigspaceship-button h2{
+  font-size: 45px;
+}
+
 #DDB{
   background-image: url(http://jazarah.net/blog/wp-content/samer/2010/12/ddb-thumbs.jpg);
   background-position: 48% 50%; 
@@ -583,18 +602,107 @@ button:hover {
   background-color: black; 
 }
 
-.agency-button{
-  width: 500px;
-  color: white;
-  background: rgba(0, 0, 0, 0);
+#strawberry-frog{
+  background-image: url(http://officesnapshots.com/wp-content/uploads/2012/02/106_mad_strawberryfrog2.jpg);
+  background-position: 48% 80%; 
+
 
 }
 
+#strawberry-frog-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+
+#strawberry-frog h2{
+  font-size: 45px;
+}
+
+#mcgarrybowen{
+  background-image: url(http://cached.imagescaler.hbpl.co.uk/resize/scaleToFit/420/420/?sURL=http://offlinehbpl.hbpl.co.uk/galleries/OMC/35764_125267_Gallery1stairs-equirect-2400.jpg);
+  background-position: 48% 80%; 
+  background-size: cover;
 
 
-.agency-button h2{
+}
 
-  font-size: 60px;
+#mcgarrybowen-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+
+#clinton{
+  background-image: url(http://edelman-zippykid.netdna-ssl.com/assets/uploads/2013/09/Clinton-Global-Initiative2.jpg);
+  background-position: 50% 50%; 
+  background-size:;
+
+
+}
+
+#clinton h2{
+  font-size: 45px;
+}
+
+#clinton-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+
+#siegel{
+  background: rgba(0, 0, 0, .8); 
+
+}
+
+#siegel h2 {
+  font-size: 45px;
+}
+
+#siegel-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+
+#digiday{
+  background-image: url(http://i2.wp.com/digiday.com/wp-content/uploads/2014/01/thumbnail_DCMA.jpg?resize=366%2C200);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#digiday-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+
+#phd{
+  background-image: url(http://i.imgur.com/xAzBHkF.jpg);
+  background-position: 10% 50%; 
+  background-size: cover;
+
+}
+
+#phd-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+
+#cocollective{
+  background-image: url(http://tymontague.com/content/_img/ty-doodle-3.png);
+  background-position: 1 0% 50%; 
+  background-size: ;
+
+}
+
+#cocollective-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
 }
 
 
