@@ -726,6 +726,39 @@ button:hover {
   background-color: black; 
 }
 
+#code{
+  background-image: url(http://designarray.com/images/made/images/uploads/feature_titles/an-interview-with-code-and-theory_590_360_gra_c1.png);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#code-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+#code h2 {
+  font-size: 45px;
+  
+}
+
+#subrosa {
+  background-image: url(http://cdn.psfk.com/wp-content/uploads/2013/12/psfk-pantone-radiant-orchid-2.jpg);
+  background-position: 48% 20%; 
+  background-size: cover;
+
+
+}
+
+#subrosa-details{
+  width: 100%;
+  height: 100%;
+  background-color: black; 
+}
+
+
 
 /* MOBILE AGENCIES-------------------------- */
 
