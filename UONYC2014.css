@@ -524,7 +524,8 @@ button h2{
 
 .details{
   margin-right: 10px;
-  height: 531px
+  height: 531px;
+  background-color: #484848;
   
 }
 
@@ -1231,19 +1232,19 @@ button h2{
 }
 
 .instagram-info{
-  float: left;
+  float: right;
    width: 28%;
   height: 100%;
 }
 
 .instagram-info h1 {
-  float: right;
+  float: left;
   text-align: center;
   width: 100%;
 }
 
 .twitter-timeline{
-  float: left;
+  float: right;
   width: 68%;
   margin-right: 1%;
 
