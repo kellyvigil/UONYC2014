@@ -1543,10 +1543,13 @@ li img{
 
 .bio-name p{
   text-align: center;
-  font-size: 3em;
+  font-size: 70px;
   color: white;
+  font-weight: 1000px;
 
 }
+
+
 
 
 .inner{
@@ -1561,19 +1564,21 @@ li img{
 
 .bio-pic {
 
-  width: 30%;
+  width: 40%;
   height: auto;
-  margin: 40px 0 0 10%;
+  margin: 20px 0 0 6%;
 }
 
 .inner-bio {
   max-width: 50%;
   height: auto;
   float: right;
-  margin: 40px 0 0 0;
+  margin: 20px 0 0 0;
   padding: 0 10% 0 10px;
 
 }
+
+
 
 .inner-bio p {
   color: black;
@@ -1581,6 +1586,8 @@ li img{
   height: auto;
   text-align: justify-center;
   overflow: none;
+  font-size: 22px;
+  line-height: 1.4em;
 
 }
 
@@ -1725,6 +1732,7 @@ color: white;
 
 .bio-name p{
   font-size: 1.5em;
+  
 }
 
 .inner-bio {
@@ -1814,7 +1822,7 @@ color: white;
 }
 
 
-
+/*
 
 .lightbox {
   position: fixed;
@@ -1841,7 +1849,7 @@ color: white;
   display: none;
   
 }
-}
+} */
 
 
 .lightbox {
@@ -1849,13 +1857,12 @@ color: white;
   right:9%;
   top: 10%;
   width: 80%;
-
-  max-height: 70%;
+  height: 80%;
   display: none;
   z-index: 2000;
   opacity: 1;
   color: 333;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .6);
 
 }
 
