@@ -35,7 +35,21 @@ function sayHello(){
     }
   })//*/
 
-  $(".agencies-monday").css("display","none")
+$(document).ready(function (){
+   $('.button-day-color').click(function (){
+       $('.button-day-color').css('background-color',"#FFFFB6");
+           $(this).css('background-color',"white");
+   });
+});
+
+$(document).ready(function (){
+   $('.nav-id h2').click(function (){
+       $('.nav-id h2').css('color',"#a4a4a4");
+           $(this).css('color',"#3c3c3c");
+   });
+});
+
+  $(".agencies-home").css("display","none")
   $(".agencies-tuesday").css("display","none")
   $(".agencies-wednesday").css("display","none")
   $(".agencies-thursday").css("display","none")
@@ -64,8 +78,8 @@ function sayHello(){
   }); 
   
   $('.button-home').click(function() {
-    var details_html = $(this).parent().find('.agencies-home').html();
-    $('#map-info').html( agencies-home_html );
+    var details_html = $(this).parent().find('.details').html();
+    /*$('#map-info').html('.agencies-home');*/
   }); 
 
   /*$(".agency-info").css("display","none")
