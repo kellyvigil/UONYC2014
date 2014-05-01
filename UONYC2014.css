@@ -1224,7 +1224,7 @@ filter: grayscale(0%);
 }
 
 .ig-wrapper {
-  width: 68%;
+  width: 55%;
   height: 600px;
   float: right;
   
@@ -1264,7 +1264,7 @@ filter: grayscale(0%);
 
 .twitter-timeline{
   float: right;
-  width: 68%;
+  width: 55%;
   margin-right: 1%;
 
 }
