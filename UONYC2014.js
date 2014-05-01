@@ -49,7 +49,7 @@ $(document).ready(function (){
    });
 });
 
-  $(".agencies-home").css("display","none")
+  
   $(".agencies-tuesday").css("display","none")
   $(".agencies-wednesday").css("display","none")
   $(".agencies-thursday").css("display","none")
