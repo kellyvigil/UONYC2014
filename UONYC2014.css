@@ -1,5 +1,5 @@
 body{
-  background-color: gray;
+  background-color: #484848;
 
   
 }
@@ -136,10 +136,12 @@ a{
 #nav {
   width: 100%;
   height: 30px;
-  background-color: #F7F7F7;
+  background-color: #f6f6f6;
   z-index: 1006;
   text-align: center;
   display: block;
+  
+  box-shadow: 0 2px 3px  gray;
 
 
 
@@ -161,7 +163,7 @@ a{
 
 
 a:hover{
-  color: gray;
+  color: ;
   text-decoration: none;
 }
 
@@ -174,14 +176,26 @@ a:hover{
 display: inline-block;
 text-decoration: none;
 height: auto;
+margin-top: 2px;
 
 }
 .nav-id h2{
-  font-size: 2em;
+  font-size: 1.4em;
   padding: 0px 80px;
   margin: 0 auto;
-  font-weight: 200;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #a4a4a4;
 }
+
+.nav-id h2:hover{
+
+  color: #FFFF00;
+  text-decoration: none;
+
+}
+
+
 
 .nav-id a{
   height: 0;
@@ -270,27 +284,34 @@ height: auto;
 }
 
 button{
-  width: 85px;
+  width: 100px;
   border: 1px solid;
   border-color:rgba(0,0,0, 0.0);  
-  margin-bottom: 35px;
-  background: rgba(178, 255, 178, 1);
+  margin-bottom: 22px;
+  background: #FFFFB6;
+  text-align: center;
 
 }
 
 button:focus {outline:0;}
 
 button h2{
-  font-size: 20px;
+  font-size: 30px;
   color: white;
 
 }
 
-button:hover {
-  color: red;
+.button-day-color:hover {
+  background: white;
 }
 
-.agency-button{
+.agency-button-color:hover {
+  opacity: .8;
+}
+
+
+
+.agency-button {
   width: 100%;
   color: white;
   background: rgba(0, 0, 0, 0);
@@ -306,6 +327,34 @@ button:hover {
 
 }
 
+.agency-monday:hover {
+-webkit-filter: grayscale(100%);
+
+}
+
+.agency-tuesday:hover {
+-webkit-filter: grayscale(100%);
+
+}
+.agency-wednesday:hover {
+-webkit-filter: grayscale(100%);
+
+}
+
+.agency-thursday:hover {
+-webkit-filter: grayscale(100%);
+
+}
+
+.agency-friday:hover {
+-webkit-filter: grayscale(100%);
+
+}
+
+.button-day-color h2 {
+  color: #3c3c3c;
+
+}
 
 
 #agencies-list{
@@ -314,7 +363,7 @@ button:hover {
   height: 531px;
   float: left;
   margin: 0 auto;
-  background-color: gray;
+  background-color: #484848;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 0px;
@@ -465,7 +514,7 @@ button:hover {
 
   width: 35%;
   height: 531px;
-  background-color:;
+  background-color: #484848;
   float: right;
   margin-right: 30px;
   
@@ -479,18 +528,21 @@ button:hover {
   
 }
 
+
 #map-info h1{
   text-align: center;
-  color: blue;
+  color: #ededed;
   font-size: 5em;
 }
 
 #map-info p{
   padding: 0 20px;
-  font-size: 18px;
-  font-weight: 50;
-  color: white;
-  line-height: 18px;
+  font-weight: 100;
+  font-size: 20px;
+  
+  color: #ededed;
+  line-height: 29px;
+  text-align: left;
 
 
 }
@@ -501,14 +553,14 @@ button:hover {
 .agency-info{
     width: 100%;
     height: 50%;
-    background-color: blue;
+    background-color: ;
     display: ;
 }
 
 .agency-info2{
     width: 100%;
     height: 50%;
-    background-color: green;
+    background-color: ;
     display: ;
 }
 
@@ -534,7 +586,7 @@ button:hover {
 #WandK-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #WandK h2{
@@ -550,7 +602,7 @@ button:hover {
 #three60i-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 
 }
 
@@ -563,7 +615,7 @@ button:hover {
 #oneshow-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #bigspaceship{
@@ -576,7 +628,7 @@ button:hover {
 #bigspaceship-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 
 }
 
@@ -593,7 +645,7 @@ button:hover {
 #DDB-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #huge{
@@ -605,7 +657,7 @@ button:hover {
 #huge-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #BBMG{
@@ -618,7 +670,7 @@ button:hover {
 #BBMG-details{
   width: 100%;
  height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #rga{
@@ -631,7 +683,7 @@ button:hover {
 #rga-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 
@@ -645,7 +697,7 @@ button:hover {
 #radical-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #strawberry-frog{
@@ -658,7 +710,7 @@ button:hover {
 #strawberry-frog-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #strawberry-frog h2{
@@ -684,7 +736,7 @@ button:hover {
 #mcgarrybowen-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #mcgarrybowen h2{
@@ -708,7 +760,7 @@ button:hover {
 #clinton-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #siegel{
@@ -723,7 +775,7 @@ button:hover {
 #siegel-details{
   width: 100%;
  height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #digiday{
@@ -742,7 +794,7 @@ button:hover {
 #digiday-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #phd{
@@ -761,7 +813,7 @@ button:hover {
 #phd-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 
@@ -783,7 +835,7 @@ button:hover {
 #cocollective-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #code{
@@ -797,7 +849,7 @@ button:hover {
 #code-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 #code h2 {
   font-size: 45px;
@@ -815,7 +867,7 @@ button:hover {
 #subrosa-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #subrosa h2 {
@@ -834,7 +886,7 @@ button:hover {
 #story-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #mets {
@@ -848,7 +900,7 @@ button:hover {
 #mets-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #sparks {
@@ -862,7 +914,7 @@ button:hover {
 #sparks-details{
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #sparks h2 {
@@ -883,7 +935,7 @@ button:hover {
   
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
 #BBDO {
@@ -899,13 +951,42 @@ button:hover {
   
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
-#ogilvy {
-  background-image: url(http://www.hlw.com/wp-content/themes/hlw/scripts/timthumb.php?src=/wp-content/gallery/bbdo-new-york/bbdo-lobby.jpg&h=300&w=710&zc=1);
+#BBDO h2 {
+  
+  text-shadow: 0px 0px 60px #6e6e6e;
+  height: 100%;
+}
+
+#BSSP {
+  background-image: url(http://jpgcreative.com/wp-content/uploads/2012/01/BSSP_0000_Site_A.jpg);
   background-position: 48% 80%; 
   background-size: ;
+
+
+}
+
+#BSSP-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: #484848; 
+}
+
+#BSSP h2 {
+  
+  text-shadow: 0px 0px 60px #6e6e6e;
+  height: 100%;
+}
+
+
+#ogilvy {
+  background-image: url(http://www.marketingweek.co.uk/Pictures/web/u/g/a/ogilvy.jpg);
+  background-position: 48% 80%; 
+  background-size: cover;
 
 
 }
@@ -915,9 +996,31 @@ button:hover {
   
   width: 100%;
   height: 531px;
-  background-color: black; 
+  background-color: #484848; 
 }
 
+
+#grey {
+  background-image: url(http://i.imgur.com/Uo3pUE7.png);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#grey-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: #484848; 
+}
+
+#grey h2 {
+  
+  text-shadow: 0px 0px 60px #6e6e6e;
+  height: 100%;
+}
 
 
 
@@ -1198,6 +1301,10 @@ button:hover {
 
 }
 
+.bio-box:hover{
+  -webkit-filter: grayscale(100%);
+}
+
 
 li img{
 
@@ -1273,24 +1380,27 @@ li img{
 
 
 .bio-insta {
-  width: 60px;
-  height: 60px;
-  margin: 0 10px ;
+  width: 40px;
+  height: 40px;
+  margin: 0 30px ;
+  opacity: .7;
   
  
 }
 
 .bio-twitter {
-  width: 70px;
-  height: 70px;
-  margin: 0 10px ;
+  width: 50px;
+  height: 50px;
+  margin: 0 30px ;
+  opacity: .7;
 
 }
 
 .bio-portfolio {
-  width: 70px;
-  height: 70px;
-  margin: 0 10px ;
+  width: 50px;
+  height: 50px;
+  margin: 0 30px ;
+  opacity: .7;
   
 }
 
