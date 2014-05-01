@@ -314,7 +314,7 @@ button:hover {
   height: 531px;
   float: left;
   margin: 0 auto;
-  background-color: ;
+  background-color: gray;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 0px;
@@ -901,6 +901,24 @@ button:hover {
   height: 531px;
   background-color: black; 
 }
+
+#ogilvy {
+  background-image: url(http://www.hlw.com/wp-content/themes/hlw/scripts/timthumb.php?src=/wp-content/gallery/bbdo-new-york/bbdo-lobby.jpg&h=300&w=710&zc=1);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#ogilvy-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: black; 
+}
+
+
 
 
 
