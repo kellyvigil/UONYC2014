@@ -559,7 +559,19 @@ filter: grayscale(0%);
 }
 
 
+.desktop-icons {
+  width: 90%;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
 
+  
+}
+
+.desktop-icons li{
+  display: inline-block;
+}
 
 .agency-info{
     width: 100%;
@@ -576,18 +588,84 @@ filter: grayscale(0%);
 }
 
 .bio-map {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin: 0 10px ;
   
  
 }
 
 .bio-map img{
+  width: auto;
+  height: 100%;
+  opacity: .7;
+  
+}
+
+@media only screen and (max-width: 1014px) {
+  
+  .bio-map {
+  width: 50px;
+  height: 50px;
+  margin: 0 0px ;
+  
+ 
+}
+
+.bio-map img{
+  width: auto;
+  height: 100%; 
+  opacity: .7;
+}
+
+  .bio-twitter {
+  width: 50px;
+  height: 50px;
+  margin: 0 0px ;
+  opacity: .7;
+
+}
+
+.bio-portfolio {
+  width: 50px;
+  height: 50px;
+  margin: 0 0px ;
+  opacity: .7;
+  
+}
+  .bio-twitter img{
   width: 100%;
   height: auto;
   
 }
+
+.bio-portfolio img{
+  width: 100%;
+  height: auto;
+  
+} 
+
+#map-info p{
+  padding: 0 20px;
+  font-weight: 100;
+  font-size: 16px;
+  
+  color: #ededed;
+  line-height: 22px;
+  text-align: left;
+
+
+}
+
+#map-info h1{
+  font-size: 40px;
+
+}
+
+  }
+
+
+
 
 #WandK{
   background-image: url(http://c0717682.cdn.cloudfiles.rackspacecloud.com/media/398.jpg);
