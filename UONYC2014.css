@@ -228,15 +228,17 @@ height: auto;
 
 #agencies{
   width: 100%;
-  height: 900px;
+  height: 640px;
   padding-top: 50px;
   padding-right: 10px;
-  padding-bottom: 20px; 
+  padding-bottom: 20px;
+  position: ;
  
   
 
 
 }
+
 
 
 #map{
@@ -251,7 +253,7 @@ height: auto;
 .days{
  
   width:15%;
-  height: 100%;
+  height: 532%;
   float: left;
   margin-left: 40px;
   margin-top: 20px;
@@ -294,6 +296,7 @@ button:hover {
 
   font-size: 60px;
   line-height: .8em;
+
 }
 
 
@@ -301,11 +304,14 @@ button:hover {
 #agencies-list{
 
   width: 75%;
-  height: 100%;
+  height: 531px;
   float: left;
   margin: 0 auto;
   background-color: white;
   margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+
 
 }
 
@@ -320,10 +326,11 @@ button:hover {
 .agencies-home{
   width: 100%;
   height: 100%;
-  background-color: orange;
+  background-color: ;
 
 
 }
+
 
 .agencies-monday{
 
@@ -332,17 +339,20 @@ button:hover {
   height: 100%;
   background-color: ;
   font-size: 40px;
+  position: relative;
 
 }
 
 .agency-monday{
 
   width: 100%;
-  height: 11%;
+  height: 95px;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
   display: ;
+  
+
 
 
 }
@@ -352,6 +362,8 @@ button:hover {
   width: 100%;
   height: 100%;
   background-color: ;
+  overflow: scroll;
+  position: relative;
 
 
 
@@ -360,12 +372,13 @@ button:hover {
 .agency-tuesday{
 
   width: 100%;
-  height: 11%;
+  height: 95px;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
   display: ;
   font-size: 40px;
+  
 
 }
 
@@ -375,6 +388,8 @@ button:hover {
   width: 100%;
   height: 100%;
   background-color: ;
+  overflow: scroll;
+  position: relative;
 
 
 }
@@ -382,7 +397,7 @@ button:hover {
 .agency-wednesday{
 
   width: 100%;
-  height: 11%;
+  height: 95px;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -397,13 +412,14 @@ button:hover {
   width: 100%;
   height: 100%;
   background-color: ;
+  overflow: scroll;
 
 }
 
 .agency-thursday{
 
   width: 100%;
-  height: 11%;
+  height: 95px;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -419,6 +435,7 @@ button:hover {
   width: 100%;
   height: 100%;
   background-color: ;
+  overflow: scroll;
 
 
 }
@@ -426,7 +443,7 @@ button:hover {
 .agency-friday{
 
   width: 100%;
-  height: 11%;
+  height: 95px;
   background-color: orange;
   margin-bottom: 1%;
   text-align: center;
@@ -438,10 +455,10 @@ button:hover {
 
 #map-info{
 
-  width: 40%;
-  height: 600px;
+  width: 35%;
+  height: 531px;
   background-color:;
-  float: left;
+  float: right;
   
   
 
@@ -449,6 +466,7 @@ button:hover {
 
 .details{
   margin-right: 10px;
+  height: 531px
   
 }
 
@@ -467,6 +485,8 @@ button:hover {
 
 
 }
+
+
 
 
 .agency-info{
@@ -504,8 +524,12 @@ button:hover {
 
 #WandK-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
+}
+
+#WandK h2{
+  text-shadow: 0px 0px 50px #5C5C5C;
 }
 
 #three60i{
@@ -516,7 +540,7 @@ button:hover {
 
 #three60i-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 
 }
@@ -529,7 +553,7 @@ button:hover {
 
 #oneshow-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -542,7 +566,7 @@ button:hover {
 
 #bigspaceship-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 
 }
@@ -559,7 +583,7 @@ button:hover {
 
 #DDB-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -571,7 +595,7 @@ button:hover {
 
 #huge-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -584,7 +608,20 @@ button:hover {
 
 #BBMG-details{
   width: 100%;
-  height: 100%;
+ height: 531px;
+  background-color: black; 
+}
+
+#rga{
+  background-image: url(http://officepictures.files.wordpress.com/2012/02/rga_londre_1.jpg);
+  background-position: 50% 90%; 
+  background-size: ;
+
+}
+
+#rga-details{
+  width: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -598,7 +635,7 @@ button:hover {
 
 #radical-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -611,13 +648,16 @@ button:hover {
 
 #strawberry-frog-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
 #strawberry-frog h2{
   font-size: 45px;
+   text-shadow: 0px 0px 50px #5C5C5C;
+  height: 100%;
 }
+
 
 #mcgarrybowen{
   background-image: url(http://cached.imagescaler.hbpl.co.uk/resize/scaleToFit/420/420/?sURL=http://offlinehbpl.hbpl.co.uk/galleries/OMC/35764_125267_Gallery1stairs-equirect-2400.jpg);
@@ -629,7 +669,7 @@ button:hover {
 
 #mcgarrybowen-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -647,7 +687,7 @@ button:hover {
 
 #clinton-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -662,7 +702,7 @@ button:hover {
 
 #siegel-details{
   width: 100%;
-  height: 100%;
+ height: 531px;
   background-color: black; 
 }
 
@@ -681,7 +721,7 @@ button:hover {
 
 #digiday-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -700,7 +740,7 @@ button:hover {
 
 #phd-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -722,7 +762,7 @@ button:hover {
 
 #cocollective-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 
@@ -736,7 +776,7 @@ button:hover {
 
 #code-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
 #code h2 {
@@ -754,9 +794,38 @@ button:hover {
 
 #subrosa-details{
   width: 100%;
-  height: 100%;
+  height: 531px;
   background-color: black; 
 }
+
+#story {
+  background-color: #ffee00;
+  
+  
+
+
+}
+
+#story-details{
+  width: 100%;
+  height: 531px;
+  background-color: black; 
+}
+
+#mets {
+  background-image: url(http://www.filminglocations.com/Images/ListingPictures/Original/4844_citifield.JPG);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#mets-details{
+  width: 100%;
+  height: 531px;
+  background-color: black; 
+}
+
 
 
 
