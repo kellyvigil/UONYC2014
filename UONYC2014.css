@@ -329,25 +329,30 @@ button h2{
 
 .agency-monday:hover {
 -webkit-filter: grayscale(100%);
+filter: grayscale(0%);
 
 }
 
 .agency-tuesday:hover {
 -webkit-filter: grayscale(100%);
+filter: grayscale(0%);
 
 }
 .agency-wednesday:hover {
 -webkit-filter: grayscale(100%);
+filter: grayscale(0%);
 
 }
 
 .agency-thursday:hover {
 -webkit-filter: grayscale(100%);
+filter: grayscale(0%);
 
 }
 
 .agency-friday:hover {
 -webkit-filter: grayscale(100%);
+filter: grayscale(0%);
 
 }
 
@@ -1304,6 +1309,7 @@ button h2{
 
 .bio-box:hover{
   -webkit-filter: grayscale(100%);
+  filter: grayscale(0%);
 }
 
 
