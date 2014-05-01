@@ -71,17 +71,19 @@ a{
 .title {
   position: fixed;
   width: 100%;
-  margin-top: ; 
+  margin-top: 200px; 
 
 }
 
 .title p {
-  font-size: 7em;
+  font-size: 10em;
+  font-weight: 600;
   text-align: center;
   font-family: Helvetica;
   color: #747474;
  
-  line-height: 2em;
+  line-height: 1.3em;
+  z-index: 0
 }
 
 
@@ -843,6 +845,42 @@ button:hover {
   height: 531px;
   background-color: black; 
 }
+
+#sparks {
+  background-image: url(http://static.squarespace.com/static/528d3ef5e4b0c14526021317/t/52f02852e4b02fdbc09395a9/1391470682766/SH_Cityscape_Header_shorter.gif);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#sparks-details{
+  width: 100%;
+  height: 531px;
+  background-color: black; 
+}
+
+#sparks h2 {
+  font-size: 45px;
+  
+}
+
+#jwt {
+  background-image: url(http://farm4.static.flickr.com/3466/3925448041_d10fab68fc_o.jpg);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#jwt-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: black; 
+}
+
 
 
 
