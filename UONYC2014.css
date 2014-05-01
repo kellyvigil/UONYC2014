@@ -1,4 +1,5 @@
 body{
+  background-color: gray;
 
   
 }
@@ -71,7 +72,9 @@ a{
 .title {
   position: fixed;
   width: 100%;
-  margin-top: 200px; 
+  margin-top: 5%; 
+  z-index: 9000
+
 
 }
 
@@ -83,7 +86,7 @@ a{
   color: #747474;
  
   line-height: 1.3em;
-  z-index: 0
+  z-index: 
 }
 
 
@@ -235,7 +238,8 @@ height: auto;
   padding-right: 10px;
   padding-bottom: 20px;
   position: ;
- 
+  z-index: 1;
+
   
 
 
@@ -248,6 +252,7 @@ height: auto;
   height: 100%; 
   float: left;
   position: relative;
+  
 
 }
 
@@ -309,7 +314,7 @@ button:hover {
   height: 531px;
   float: left;
   margin: 0 auto;
-  background-color: white;
+  background-color: ;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 0px;
@@ -874,6 +879,22 @@ button:hover {
 }
 
 #jwt-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: black; 
+}
+
+#BBDO {
+  background-image: url(http://www.hlw.com/wp-content/themes/hlw/scripts/timthumb.php?src=/wp-content/gallery/bbdo-new-york/bbdo-lobby.jpg&h=300&w=710&zc=1);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#BBDO-details{
 
   
   width: 100%;
