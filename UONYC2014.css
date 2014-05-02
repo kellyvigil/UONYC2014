@@ -1,5 +1,5 @@
 body{
-  background-color: #484848;
+  background-color: rgb(72, 72, 72);
   padding: 0;
   margin: 0;
 
@@ -380,7 +380,7 @@ filter: grayscale(0%);
   height: 531px;
   float: left;
   margin: 0 auto;
-  background-color: #484848;
+  background-color: rgb(72, 72, 72);
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 0px;
@@ -531,7 +531,7 @@ filter: grayscale(0%);
 
   width: 35%;
   height: 531px;
-  background-color: #484848;
+  background-color: rgb(72, 72, 72);
   float: right;
   margin-right: 30px;
   padding-right: 20px;
@@ -543,7 +543,7 @@ filter: grayscale(0%);
 .details{
   margin-right: 10px;
   height: 531px;
-  background-color: #484848;
+  background-color: rgb(72, 72, 72);
   
 }
 
@@ -667,6 +667,7 @@ filter: grayscale(0%);
 
 #map-info h1{
   font-size: 40px;
+  
 
 }
 
@@ -683,7 +684,7 @@ filter: grayscale(0%);
 #WandK-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #WandK h2{
@@ -699,7 +700,7 @@ filter: grayscale(0%);
 #three60i-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 
 }
 
@@ -712,7 +713,7 @@ filter: grayscale(0%);
 #oneshow-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #oneshow-details h1{
@@ -738,7 +739,7 @@ filter: grayscale(0%);
 #bigspaceship-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 
 }
 
@@ -755,7 +756,7 @@ filter: grayscale(0%);
 #DDB-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #huge{
@@ -767,7 +768,7 @@ filter: grayscale(0%);
 #huge-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #BBMG{
@@ -780,7 +781,7 @@ filter: grayscale(0%);
 #BBMG-details{
   width: 100%;
  height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #rga{
@@ -793,7 +794,7 @@ filter: grayscale(0%);
 #rga-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #tbwa{
@@ -806,7 +807,7 @@ filter: grayscale(0%);
 #tbwa-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #tbwa h2{
@@ -832,7 +833,7 @@ filter: grayscale(0%);
 #radical-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #strawberry-frog{
@@ -845,7 +846,7 @@ filter: grayscale(0%);
 #strawberry-frog-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #strawberry-frog h2{
@@ -871,7 +872,7 @@ filter: grayscale(0%);
 #mcgarrybowen-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #mcgarrybowen h2{
@@ -895,7 +896,7 @@ filter: grayscale(0%);
 #clinton-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #siegel{
@@ -910,7 +911,7 @@ filter: grayscale(0%);
 #siegel-details{
   width: 100%;
  height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #digiday{
@@ -929,7 +930,7 @@ filter: grayscale(0%);
 #digiday-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #phd{
@@ -948,7 +949,7 @@ filter: grayscale(0%);
 #phd-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 
@@ -970,7 +971,7 @@ filter: grayscale(0%);
 #cocollective-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #code{
@@ -984,7 +985,7 @@ filter: grayscale(0%);
 #code-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 #code h2 {
   font-size: 45px;
@@ -1002,7 +1003,7 @@ filter: grayscale(0%);
 #subrosa-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #subrosa h2 {
@@ -1021,7 +1022,7 @@ filter: grayscale(0%);
 #story-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #mets {
@@ -1035,7 +1036,7 @@ filter: grayscale(0%);
 #mets-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #sparks {
@@ -1049,7 +1050,7 @@ filter: grayscale(0%);
 #sparks-details{
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #sparks h2 {
@@ -1070,7 +1071,7 @@ filter: grayscale(0%);
   
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #BBDO {
@@ -1086,7 +1087,7 @@ filter: grayscale(0%);
   
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #BBDO h2 {
@@ -1108,7 +1109,7 @@ filter: grayscale(0%);
   
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #BSSP h2 {
@@ -1131,7 +1132,7 @@ filter: grayscale(0%);
   
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 
@@ -1148,7 +1149,7 @@ filter: grayscale(0%);
   
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #grey h2 {
@@ -1170,7 +1171,7 @@ filter: grayscale(0%);
   
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 #horizon h2 {
@@ -1193,7 +1194,7 @@ filter: grayscale(0%);
   
   width: 100%;
   height: 531px;
-  background-color: #484848; 
+  background-color: rgb(72, 72, 72); 
 }
 
 
@@ -1432,7 +1433,7 @@ filter: grayscale(0%);
   font-size: 8em;
   margin-top: 0;
   text-align: left;
-  color: #484848;
+  color: rgb(72, 72, 72);
   line-height: 100px;
 }
 
@@ -1451,7 +1452,7 @@ filter: grayscale(0%);
   text-align: left;
   width: 100%;
   font-size: 8em;
-  color: #484848;
+  color: rgb(72, 72, 72);
   line-height: 100px;
   
 
@@ -1894,7 +1895,7 @@ color: white;
 
 .speacial-thanks p{
   font-size: 17px;
-  color: #484848;
+  color: rgb(72, 72, 72);
   padding:0;
   margin: 0;
 
