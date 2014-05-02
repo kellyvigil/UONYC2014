@@ -60,10 +60,10 @@ a{
 .cover-image{
 
   width: auto;
-  height: 90%;
+  height: 80%;
   background-image: url(http://i.imgur.com/pJA6zMJ.jpg);
   background-size: cover;
-  background-position: 90% 80%; 
+  background-position: 50% 80%; 
   overflow: none;
   background-position: ;
   background-attachment: fixed;
