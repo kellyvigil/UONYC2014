@@ -64,13 +64,11 @@ $(document).ready(function (){
       $('#agencies-list').children().hide()
       $($(this).attr('data-show-day')).show();
 
+     
+
       //$("#agencies-list div").css("display", "none");
       //$("#agencies-list div#" + id + "").css("display", "");
   });
-
-  
-
-
 
   $('#agencies-list button').click(function() {
     var details_html = $(this).parent().find('.details').html();
@@ -78,9 +76,16 @@ $(document).ready(function (){
   }); 
   
   $('.button-home').click(function() {
-    var details_html = $(this).parent().find('.details').html();
-    /*$('#map-info').html('.agencies-home');*/
+    $('#agencies-list').children().hide()
+    $('.agencies-home').show()
+    $('.home-left').show()
+    $('.home-right').hide()
+    $('#map-info').html(      $('.home-right').html() );
   }); 
+
+  setTimeout(function() {
+     $('.button-home').click(); 
+   })
 
   /*$(".agency-info").css("display","none")
   $(".agency-info2").css("display","none")
