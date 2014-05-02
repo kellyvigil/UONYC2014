@@ -75,7 +75,7 @@ $(document).ready(function (){
     $('#map-info').html( details_html );
   }); 
   
-  $('.button-home').click(function() {
+  /*$('.button-home').click(function() {
     $('#agencies-list').children().hide()
     $('.agencies-home').show()
     $('.home-left').show()
