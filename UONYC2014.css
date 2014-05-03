@@ -60,15 +60,13 @@ a{
 .cover-image{
 
   width: auto;
-  height: 80%;
-  background-image: url(http://i.imgur.com/pJA6zMJ.jpg);
+  height: 82%;
+   background: url(http://i.imgur.com/ywHxDzg.jpg) no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   
-  overflow: ;
-  background-position: ;
-  background-attachment: fixed;
-  background-position: 20% 80%; 
-  left: 600px;
 
   z-index: 1000;
 
@@ -76,25 +74,79 @@ a{
 
 
 
-.title {
+
+
+
+.title-cover{
   position: fixed;
   width: 100%;
-  margin-top: 5%; 
-  z-index: 9000
+  height: auto;
+  
+  top: 40%;
+  z-index: ;
+  
+
 
 
 }
 
-.title p {
-  font-size: 10em;
-  font-weight: 600;
+.title-cover h1 {
+
+  font-size: 6em;
+  font-weight: 1900;
   text-align: center;
   font-family: Helvetica;
-  color: #747474;
- 
-  line-height: 1.3em;
-  z-index: 
+  color: ;
+  margin:  auto;
+  line-height: .9em;
+  z-index: ;
+  position: ;
+  color: white;
+  text-shadow: 0 0 90px black;
+
+
+
+  
+  
 }
+
+
+@media only screen and (max-height:480px) {
+
+  .title-cover h1 {
+  font-size: 3em;
+  font-weight: ;
+  text-align: center;
+  font-family: Helvetica;
+  color: ;
+  line-height: 1.3em;
+  z-index: ;
+  margin: 0px ;
+
+}
+
+.title-cover {
+  display: ;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  
+
+  margin-top: 15%;
+  z-index: ;
+
+
+top: 0px;
+}
+  
+
+
+
+}
+
+
+
+
 
 
 
@@ -104,6 +156,8 @@ a{
 
   .cover-image {
     overflow: hidden;
+    background-color: #FFFFB6;
+    background-image: none;
   }
 
   .cover-image img {
@@ -255,7 +309,7 @@ margin-top: 2px;
 #agencies{
   width: 100%;
   height: 640px;
-  padding-top: 50px;
+  padding-top: px;
   padding-right: 10px;
   padding-bottom: 20px;
   position: ;
@@ -1414,11 +1468,26 @@ font-size: 60px;
   margin: 0 auto;
   color: white;
   font-size: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   
   height: 100%;
 }
 
+#bigspaceship-mobile {
+  background-image: url(https://static.squarespace.com/static/52536652e4b007332ef4ecf4/52dec946e4b0ca499f87bce7/52dec974e4b0ca499f88cb26/1328568892947/1000w/DieLine.CreativeWeek1.jpg);
+  background-position: 50% 85%; 
+  background-size: ;
+
+}
+
+#bigspaceship-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 10px;
+  
+  height: 100%;
+}
 
 
 
