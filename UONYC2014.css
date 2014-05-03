@@ -1266,7 +1266,8 @@ filter: grayscale(0%);
 
 .agency-name p{
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
+  font-weight: 800px;
   color: white;
 
 }
@@ -1281,7 +1282,7 @@ filter: grayscale(0%);
 }
 
 .agency-bio p {
-  color: black;
+  color: white;
   width: 90%;
   height: auto;
   text-align: justify-center;
@@ -1303,23 +1304,23 @@ filter: grayscale(0%);
 
 
 .agency-twitter {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   margin: 0 10px ;
   
  
 }
 
 .agency-website {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   margin: 0 10px ;
 
 }
 
 .agency-map {
-  width: 70px;
-  height: 70px;
+  width: 40px;
+  height: 40px;
   margin: 0 10px ;
   
 }
@@ -1341,6 +1342,33 @@ filter: grayscale(0%);
   height: 100%;
   text-decoration: none;
 }
+
+.mobile-agency h2 {
+
+  color: white;
+  font-size: 40px;
+
+}
+
+
+
+
+#WandK-mobile {
+  background-image: url(http://c0717682.cdn.cloudfiles.rackspacecloud.com/media/398.jpg);
+  background-position: 48% 50%; 
+  background-size: cover;
+
+}
+
+#WandK-mobile h2{
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  text-shadow: 0px 0px 50px black;
+  height: 100%;
+}
+
+
 
 
 
