@@ -1288,6 +1288,8 @@ filter: grayscale(0%);
   text-align: justify-center;
   overflow: none;
   margin: 0 auto;
+  line-height: 12px;
+  font-size: 12px;
 
 }
 
