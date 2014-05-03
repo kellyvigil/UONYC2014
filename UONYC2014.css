@@ -1252,7 +1252,7 @@ filter: grayscale(0%);
 color: #E1E1E1;
 margin: 0 auto;
 padding-top: 20px;
-font-size: 30px;
+font-size: 60px;
 }
 
 .mobile-agency {
@@ -1388,7 +1388,7 @@ font-size: 30px;
 
 #three60i-mobile {
   background-image: url(http://files.coloribus.com/files/adsarchive/part_1726/17269705/file/oreocookies-the-oreo-blackout-tweet-1024-83953.jpg);
-  background-position: 0% 75%; 
+  background-position: 10% 75%; 
   background-size: cover;
 
 }
