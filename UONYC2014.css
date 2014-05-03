@@ -1305,9 +1305,13 @@ filter: grayscale(0%);
  
 }
 
+.agency-icons li{
+  display: inline-block;
+}
+
 
 .agency-twitter {
-  width: auto;
+  width: 40px;
   height: 40px;
   margin: 0 10px ;
   
@@ -1315,14 +1319,14 @@ filter: grayscale(0%);
 }
 
 .agency-website {
-  width: auto;
+  width: 40px;
   height: 40px;
   margin: 0 10px ;
 
 }
 
 .agency-map {
-  width: auto;
+  width: 40px;
   height: 40px;
   margin: 0 10px ;
   
@@ -1330,18 +1334,18 @@ filter: grayscale(0%);
 
 .agency-twitter img{
   width: 100%;
-  height: 100%;
+  height: auto;
   text-decoration: none;
 }
 
 .agency-website img{
   width: 100%;
-  height: 100%;
+  height: auto;
   text-decoration: none;
 }
 
 .agency-map img{
-  width: 100%;
+  width: auto;
   height: 100%;
   text-decoration: none;
 }
