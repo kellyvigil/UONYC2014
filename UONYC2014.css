@@ -155,6 +155,7 @@ top: 0px;
   
 
   .cover-image {
+
     overflow: hidden;
     background-color: #FFFFB6;
     background-image: none;
@@ -165,10 +166,11 @@ top: 0px;
   width: auto;
 }
 
-  .title{
+  .title-cover  {
     position: absolute;
     width: 100%;
-    padding-top: 10%;
+    padding-top: ;
+
   }
 
   .title p{
@@ -1474,7 +1476,7 @@ font-size: 60px;
 }
 
 #bigspaceship-mobile {
-  background-image: url(https://static.squarespace.com/static/52536652e4b007332ef4ecf4/52dec946e4b0ca499f87bce7/52dec974e4b0ca499f88cb26/1328568892947/1000w/DieLine.CreativeWeek1.jpg);
+  background-image: url(http://i.imgur.com/1EKcT5T.png);
   background-position: 50% 85%; 
   background-size: ;
 
@@ -1483,13 +1485,75 @@ font-size: 60px;
 #bigspaceship-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 40px;
+  font-size: 60px;
   padding-top: 10px;
   
   height: 100%;
 }
 
+#DDB-mobile {
+  background-image: url(http://jazarah.net/blog/wp-content/samer/2010/12/ddb-thumbs.jpg);
+  background-position: 50% 50%; 
+  background-size: ;
 
+}
+
+#DDB-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#HUGE-mobile {
+  background: rgba(236, 0, 140, 1);
+  background-position: 50% 50%; 
+  background-size: ;
+
+}
+
+#HUGE-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#rga-mobile {
+  background-image: url(http://officepictures.files.wordpress.com/2012/02/rga_londre_1.jpg);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#rga-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#bbmg-mobile {
+  background-image: url(http://bbmg.com/wp-content/uploads/2013/04/What1.jpg);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#BBMG-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
 
 
 
@@ -2040,14 +2104,14 @@ color: white;
 
 .speacial-thanks{
   width: 100%;
-  height: 24px;
+  height: 35px;
   background-color: #FFFFB6;
   position: ;
   box-shadow: 0 0px 4px  black;
 }
 
 .speacial-thanks p{
-  font-size: 18px;
+  font-size: 14px;
   color: rgb(90, 90, 90);
   padding:0;
   margin: 0;
@@ -2064,6 +2128,25 @@ color: white;
   text-decoration: none;
   color: #3c3c3c;
 
+}
+
+@media only screen and (max-width: 768px) {
+
+  .speacial-thanks{
+  width: 100%;
+  height: 35px;
+  background-color: #FFFFB6;
+  position: ;
+  box-shadow: 0 0px 4px  black;
+}
+
+  .speacial-thanks p{
+  font-size: 12px;
+  color: rgb(90, 90, 90);
+  padding:0;
+  margin: 0;
+
+}
 }
 
 
