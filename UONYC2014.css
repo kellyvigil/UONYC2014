@@ -1219,7 +1219,7 @@ filter: grayscale(0%);
 #mobile-calendar{
 
   width: 100%;
-  padding-top: 60px;
+  padding-top: 0px;
 
 
 }
@@ -1236,13 +1236,23 @@ filter: grayscale(0%);
 
   width: 100%;
   height: 150px;
-  background-color: #A1A1A1;
+  background-color: rgb(90, 90, 90);
   margin-top: 1px;
   font-size: 30px;
   text-align: center;
   font-family: ;
+  box-shadow: 0 22px -20px  black;
+  margin-bottom: 2px;
 
 
+}
+
+.mobile-day h2 {
+
+color: #E1E1E1;
+margin: 0 auto;
+padding-top: 20px;
+font-size: 90px;
 }
 
 .mobile-agency {
@@ -1368,6 +1378,7 @@ filter: grayscale(0%);
 }
 
 #WandK-mobile h2{
+  margin: 0 auto;
   color: white;
   font-size: 90px;
   padding-top: 20px;
@@ -1375,6 +1386,21 @@ filter: grayscale(0%);
   height: 100%;
 }
 
+#three60i-mobile {
+  background-image: url(http://files.coloribus.com/files/adsarchive/part_1726/17269705/file/oreocookies-the-oreo-blackout-tweet-1024-83953.jpg);
+  background-position: 0% 75%; 
+  background-size: cover;
+
+}
+
+#three60i-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
 
 
 
