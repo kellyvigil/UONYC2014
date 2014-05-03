@@ -1468,7 +1468,7 @@ filter: grayscale(0%);
 
 .ig{
   
-  width: 99%;
+  width: 100%;
   min-width: 200px;
   display: inline-block;
   position: relative;
