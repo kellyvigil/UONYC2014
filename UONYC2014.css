@@ -1296,6 +1296,7 @@ filter: grayscale(0%);
 
 .agency-icons{
   width: 100%;
+  height: ;
   display: inline-block;
   padding: 0;
   text-align: center;
@@ -1306,7 +1307,7 @@ filter: grayscale(0%);
 
 
 .agency-twitter {
-  width: 40px;
+  width: auto;
   height: 40px;
   margin: 0 10px ;
   
@@ -1314,14 +1315,14 @@ filter: grayscale(0%);
 }
 
 .agency-website {
-  width: 40px;
+  width: auto;
   height: 40px;
   margin: 0 10px ;
 
 }
 
 .agency-map {
-  width: 40px;
+  width: auto;
   height: 40px;
   margin: 0 10px ;
   
