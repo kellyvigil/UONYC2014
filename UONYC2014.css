@@ -2355,11 +2355,11 @@ color: white;
 
 
 .bio-pic  {
-  display: ;
+  display: none;
   width: 100px;
   height: auto;
   margin: 0 auto;
-  display: block; 
+  display: ; 
   text-align: center;
 }
 
