@@ -1556,6 +1556,38 @@ font-size: 60px;
   height: 100%;
 }
 
+#radical-mobile {
+  background-image: url(http://www.radicalmedia.com/Vault/Thumb?Quality=80&VaultID=2075&ResX=940&ResY=350&Mode=D&v=1398367560);
+  background-position: 48% 60%; 
+  background-size: cover;
+
+}
+
+#radical-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#strawberry-mobile {
+  background-image: url(http://officesnapshots.com/wp-content/uploads/2012/02/106_mad_strawberryfrog2.jpg);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+}
+
+#strawberry-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
 
 
 /* FEED --------------------------*/
