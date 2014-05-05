@@ -1309,7 +1309,7 @@ filter: grayscale(0%);
 
 color: #E1E1E1;
 margin: 0 auto;
-padding-top: 40px;
+padding-top: 20px;
 font-size: 90px;
 font-weight: 800px
 }
@@ -1570,8 +1570,8 @@ font-weight: 800px
 #radical-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 45px;
-  padding-top: 25px;
+  font-size: 55px;
+  padding-top: 35px;
   
   height: 100%;
 }
@@ -1587,7 +1587,7 @@ font-weight: 800px
   margin: 0 auto;
   color: white;
   font-size: 40px;
-  padding-top: 25px;
+  padding-top: 35px;
   
   height: 100%;
 }
