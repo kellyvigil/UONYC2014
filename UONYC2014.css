@@ -1753,6 +1753,21 @@ font-weight: 800px
   height: 100%;
 }
 
+#sparks-mobile {
+  background-image: url(http://www.filminglocations.com/Images/ListingPictures/Original/4844_citifield.JPG);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#sparks-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  height: 100%;
+}
+
 /* FEED --------------------------*/
 
 
