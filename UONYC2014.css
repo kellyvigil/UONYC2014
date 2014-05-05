@@ -1660,7 +1660,7 @@ font-weight: 800px
 #siegel-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 60px;
+  font-size: 40px;
   padding-top: 35px;
   height: 100%;
 }
@@ -1682,8 +1682,8 @@ font-weight: 800px
 
 #co-mobile {
   background-image: url(http://i.imgur.com/J5AgfVD.jpg);
-  background-position: 40% 33%; 
-  background-size: cover;
+  background-position: 20% 73%; 
+  background-size: ;
 
 }
 
