@@ -1310,7 +1310,8 @@ filter: grayscale(0%);
 color: #E1E1E1;
 margin: 0 auto;
 padding-top: 40px;
-font-size: 60px;
+font-size: 40px;
+font-weight: 800px
 }
 
 .mobile-agency {
@@ -1320,6 +1321,10 @@ font-size: 60px;
   margin-top: 1px;
   text-align: center;
 
+}
+
+.mobile-agency h2 {
+  width: 100%
 }
 
 .agency-inner  {
@@ -1438,7 +1443,7 @@ font-size: 60px;
 #WandK-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 90px;
+  font-size: 75px;
   padding-top: 20px;
   
   height: 100%;
@@ -1454,7 +1459,7 @@ font-size: 60px;
 #three60i-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 90px;
+  font-size:75px;
   padding-top: 20px;
   
   height: 100%;
@@ -1470,7 +1475,7 @@ font-size: 60px;
 #oneshow-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   padding-top: 10px;
   
   height: 100%;
@@ -1486,7 +1491,7 @@ font-size: 60px;
 #bigspaceship-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   padding-top: 10px;
   
   height: 100%;
@@ -1502,7 +1507,7 @@ font-size: 60px;
 #DDB-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 90px;
+  font-size: 75px;
   padding-top: 20px;
   
   height: 100%;
@@ -1518,7 +1523,7 @@ font-size: 60px;
 #HUGE-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 90px;
+  font-size: 75px;
   padding-top: 20px;
   
   height: 100%;
@@ -1534,7 +1539,7 @@ font-size: 60px;
 #rga-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 90px;
+  font-size: 75px;
   padding-top: 20px;
   
   height: 100%;
@@ -1550,7 +1555,7 @@ font-size: 60px;
 #BBMG-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 90px;
+  font-size: 75px;
   padding-top: 20px;
   
   height: 100%;
@@ -1565,7 +1570,7 @@ font-size: 60px;
 #radical-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   padding-top: 20px;
   
   height: 100%;
