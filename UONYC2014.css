@@ -1809,6 +1809,36 @@ font-weight: 800px
   height: 100%;
 }
 
+#ogilvy-mobile {
+  background-image: url(http://www.marketingweek.co.uk/Pictures/web/u/g/a/ogilvy.jpg);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#ogilvy-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#grey-mobile {
+  background-image: url(http://i.imgur.com/Uo3pUE7.png);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#grey-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 35px;
+  height: 100%;
+}
+
 /* FEED --------------------------*/
 
 
