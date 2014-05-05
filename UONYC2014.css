@@ -145,11 +145,38 @@ a{
 
 
 
-
-
-
-
 @media only screen and (max-width: 768px) {
+  
+
+  .cover-image {
+
+    overflow: hidden;
+    background-color: rgb(90, 90, 90);
+    background-image: none;
+    width: 100%;
+   
+  }
+
+  
+
+  .title-cover  {
+    position: absolute;
+    width: 100%;
+    padding-top: ;
+
+  }
+
+  .title-cover h1{
+  margin: 0 auto;
+  font-size: 4em;
+  text-align: center;
+}
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
   
 
   .cover-image {
