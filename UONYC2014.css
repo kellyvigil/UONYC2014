@@ -1652,6 +1652,34 @@ font-weight: 800px
   height: 100%;
 }
 
+#siegel-mobile {
+  background: rgba(0, 0, 0, .7)
+
+}
+
+#siegle-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#phd-mobile {
+  background-image: url(http://i.imgur.com/xAzBHkF.jpg);
+  background-position: 10% 50%; 
+  background-size: ;
+
+}
+
+#phd-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 35px;
+  height: 100%;
+}
+
 /* FEED --------------------------*/
 
 
