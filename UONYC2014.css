@@ -1637,6 +1637,21 @@ font-weight: 800px
   height: 100%;
 }
 
+#clinton-mobile {
+  background-image: url(http://edelman-zippykid.netdna-ssl.com/assets/uploads/2013/09/Clinton-Global-Initiative2.jpg);
+  background-position: 50% 50%; 
+  background-size: ;
+
+}
+
+#clinton-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  height: 100%;
+}
+
 /* FEED --------------------------*/
 
 
