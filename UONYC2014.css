@@ -2163,10 +2163,12 @@ li img{
   height: auto;
   text-align: justify-center;
   overflow: none;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 1.4em;
 
 }
+
+
 
 .bio-box .inner {
   display: none;
@@ -2340,6 +2342,7 @@ color: white;
   overflow: none;
   margin: 0 auto;
   line-height: 1.0;
+  font-size: 16px;
 
 }
 
