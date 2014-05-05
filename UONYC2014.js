@@ -195,6 +195,7 @@ $(document).scroll(function(e){
       //var name = $inner.find('h2').text();
       //console.log('name', name);
       
+      
     });
     $('.lightbox').on('click', function(e) {
       e.stopPropagation();
