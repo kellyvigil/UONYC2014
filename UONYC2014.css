@@ -1768,6 +1768,36 @@ font-weight: 800px
   height: 100%;
 }
 
+#jwt-mobile {
+  background-image: url(http://farm4.static.flickr.com/3466/3925448041_d10fab68fc_o.jpg);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#jwt-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#bbdo-mobile {
+  background-image: url(http://www.hlw.com/wp-content/themes/hlw/scripts/timthumb.php?src=/wp-content/gallery/bbdo-new-york/bbdo-lobby.jpg&h=300&w=710&zc=1);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#bddo-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 35px;
+  height: 100%;
+}
+
 /* FEED --------------------------*/
 
 
