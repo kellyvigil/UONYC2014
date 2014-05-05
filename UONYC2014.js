@@ -103,10 +103,10 @@ $(document).ready(function (){
   $(window).scroll(function() {
     if ($(window).scrollTop() >= $('.cover-image').height()) {
       $('.afix-top').addClass('fix-to-top');
-      $("#agencies").css('margin-top', '50px');
+      
     } else {
       $('.afix-top').removeClass('fix-to-top');
-      $("#agencies").css('margin-top', '0px');
+      
     }
   });
 
