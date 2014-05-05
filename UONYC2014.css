@@ -1608,7 +1608,7 @@ font-weight: 800px
 #mcgarry-mobile {
   background-image: url(http://cached.imagescaler.hbpl.co.uk/resize/scaleToFit/420/420/?sURL=http://offlinehbpl.hbpl.co.uk/galleries/OMC/35764_125267_Gallery1stairs-equirect-2400.jpg);
   background-position: 48% 80%; 
-  background-size: ;
+  background-size: cover;
 
 }
 
@@ -1657,7 +1657,7 @@ font-weight: 800px
 
 }
 
-#siegle-mobile h2{
+#siegel-mobile h2{
   margin: 0 auto;
   color: white;
   font-size: 60px;
@@ -1668,7 +1668,7 @@ font-weight: 800px
 #phd-mobile {
   background-image: url(http://i.imgur.com/xAzBHkF.jpg);
   background-position: 10% 50%; 
-  background-size: ;
+  background-size: cover;
 
 }
 
@@ -1676,6 +1676,36 @@ font-weight: 800px
   margin: 0 auto;
   color: white;
   font-size: 80px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#co-mobile {
+  background-image: url(http://i.imgur.com/J5AgfVD.jpg);
+  background-position: 40% 33%; 
+  background-size: cover;
+
+}
+
+#co-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#code-mobile {
+  background-image: url(http://designarray.com/images/made/images/uploads/feature_titles/an-interview-with-code-and-theory_590_360_gra_c1.png);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+}
+
+#code-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
   padding-top: 35px;
   height: 100%;
 }
