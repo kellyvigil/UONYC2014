@@ -114,7 +114,7 @@ a{
 @media only screen and (max-height:480px) {
 
   .title-cover h1 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: ;
   text-align: center;
   font-family: Helvetica;
@@ -131,13 +131,9 @@ a{
   position: fixed;
   width: 100%;
   height: auto;
-  
-
   margin-top: 15%;
   z-index: ;
-
-
-top: 0px;
+  top: 0px;
 }
 
   
