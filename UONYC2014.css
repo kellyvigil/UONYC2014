@@ -1378,7 +1378,7 @@ font-weight: 800px
   font-size: 30px;
   font-weight: 800px;
   color: white;
-  line-height: 1em;
+  line-height: .7em;
 
 }
 
@@ -2351,7 +2351,7 @@ color: white;
 
 }
 
-.bio-pic {
+.bio-pic img{
   display: none;
   width: 160px;
   height: auto;
