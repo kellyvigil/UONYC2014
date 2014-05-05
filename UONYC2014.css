@@ -1790,7 +1790,22 @@ font-weight: 800px
 
 }
 
-#bddo-mobile h2{
+#bbdo-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#bbdo-mobile {
+  background-image: url(http://jpgcreative.com/wp-content/uploads/2012/01/BSSP_0000_Site_A.jpg);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#bbdo-mobile h2{
   margin: 0 auto;
   color: white;
   font-size: 90px;
