@@ -1839,6 +1839,51 @@ font-weight: 800px
   height: 100%;
 }
 
+#horizon-mobile {
+  background-image: url(http://horizon-www.s3.amazonaws.com/images/background_images/hm_bg_contact.jpg);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#horizon-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 70px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#digiday-mobile {
+  background-image: url(http://i2.wp.com/digiday.com/wp-content/uploads/2014/01/thumbnail_DCMA.jpg?resize=366%2C200);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#digiday-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 70px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#anomaly-mobile {
+  background-image: url(http://i.imgur.com/ZANRbz6.png);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#anomaly-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
+  padding-top: 35px;
+  height: 100%;
+}
+
 /* FEED --------------------------*/
 
 
@@ -2118,7 +2163,7 @@ li img{
   height: auto;
   text-align: justify-center;
   overflow: none;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 1.4em;
 
 }
