@@ -1592,7 +1592,21 @@ font-weight: 800px
   height: 100%;
 }
 
+#mcgarry-mobile {
+  background-image: url(http://cached.imagescaler.hbpl.co.uk/resize/scaleToFit/420/420/?sURL=http://offlinehbpl.hbpl.co.uk/galleries/OMC/35764_125267_Gallery1stairs-equirect-2400.jpg);
+  background-position: 48% 80%; 
+  background-size: ;
 
+}
+
+#mcgarry-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  
+  height: 100%;
+}
 
 /* FEED --------------------------*/
 
