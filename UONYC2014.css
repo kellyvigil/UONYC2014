@@ -1710,6 +1710,34 @@ font-weight: 800px
   height: 100%;
 }
 
+#subrosa-mobile {
+  background-image: url(http://cdn.psfk.com/wp-content/uploads/2013/12/psfk-pantone-radiant-orchid-2.jpg);
+  background-position: 50% 20%; 
+  background-size: cover;
+
+}
+
+#subrosa-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#story-mobile {
+  background-color: #ffee00;
+
+}
+
+#story-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
+  padding-top: 35px;
+  height: 100%;
+}
+
 /* FEED --------------------------*/
 
 
