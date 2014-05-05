@@ -1491,7 +1491,7 @@ font-weight: 800px
 #bigspaceship-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 35px;
+  font-size: 55px;
   padding-top: 10px;
   
   height: 100%;
@@ -1507,7 +1507,7 @@ font-weight: 800px
 #DDB-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 75px;
+  font-size: 90px;
   padding-top: 20px;
   
   height: 100%;
@@ -1523,7 +1523,7 @@ font-weight: 800px
 #HUGE-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 75px;
+  font-size: 90px;
   padding-top: 20px;
   
   height: 100%;
@@ -1539,7 +1539,7 @@ font-weight: 800px
 #rga-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 75px;
+  font-size: 90px;
   padding-top: 20px;
   
   height: 100%;
@@ -1555,7 +1555,7 @@ font-weight: 800px
 #BBMG-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 75px;
+  font-size: 80px;
   padding-top: 20px;
   
   height: 100%;
@@ -1570,8 +1570,8 @@ font-weight: 800px
 #radical-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 35px;
-  padding-top: 20px;
+  font-size: 45px;
+  padding-top: 25px;
   
   height: 100%;
 }
@@ -1586,8 +1586,8 @@ font-weight: 800px
 #strawberry-mobile h2{
   margin: 0 auto;
   color: white;
-  font-size: 35px;
-  padding-top: 20px;
+  font-size: 40px;
+  padding-top: 25px;
   
   height: 100%;
 }
