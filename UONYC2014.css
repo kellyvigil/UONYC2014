@@ -1173,7 +1173,6 @@ filter: grayscale(0%);
   background-position: 48% 80%; 
   background-size: ;
 
-
 }
 
 #jwt-details{
@@ -1775,6 +1774,21 @@ font-weight: 800px
   margin: 0 auto;
   color: white;
   font-size: 60px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#rokkan-mobile {
+  background-image: url(http://rokkan.com/wp-content/uploads/2013/01/rkn-office_nyc.jpg);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#rokkan-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 50px;
   padding-top: 35px;
   height: 100%;
 }
