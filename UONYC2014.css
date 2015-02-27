@@ -2173,8 +2173,8 @@ iframe#twitter-widget-0{
     margin: 0, auto;
     display: inline-block;
     padding: 0;
-    -webkit-filter: grayscale(70%);
-  filter: grayscale(30%);
+    -webkit-filter: grayscale(85%);
+  filter: grayscale(150%);
     
 
 }
