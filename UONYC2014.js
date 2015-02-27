@@ -7,7 +7,7 @@ var url = "https://api.instagram.com/v1/tags/"+tag+"/media/recent?client_id=bd5b
 $.getJSON(url).success(function(response) {
     var photos = response.data;
     $.each(photos, function(index, photo) {
-        var photo_el = "<li class='ig'><a href='" + photo.link + "'><img src='" + photo.images.standard_resolution.url + "' /><p>" + photo.caption.text + "</p></a></div>";
+        var photo_el = "<li class='ig'><a href='" + photo.link + "'><img src='" + photo.images.standard_resolution.url + "' /><p><span>" + photo.caption.text + "</span></p></a></div>";
         $('.main').append(photo_el);
         console.log(photo);
   });

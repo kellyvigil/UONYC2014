@@ -1967,12 +1967,19 @@ font-weight: 800px
 
 }
 
-
-
 .twitter-feed{
+  width: 100%;
+  height: 450px;
+  margin-top: ;
+}
+
+
+
+.instagram-feed{
 
   width: 100%;
   height: 450px;
+  margin-top: 20px;
 }
 
 
@@ -1989,7 +1996,7 @@ font-weight: 800px
   margin-left: 1%;
   text-align: center;
   position: relative;
-  background-color: white; 
+  background-color: #FFFFB6; 
   border-radius: 5px;
   border-top: 
   
@@ -1998,49 +2005,54 @@ font-weight: 800px
 }
 
 .ig-wrapper {
-  width: 55%;
+  width: 45%;
   max-width: 800px;
-  height: 600px;
+  height: 550px;
   float: right;
-  margin-right: 20px;
+  /*margin-right: 10px;*/
   border-radius: ;
-  margin-top: 15px;
+  margin-top: ;
   
  
 
 }
 
+
+
 .ig p {
-  font-size: 12px;
-  line-height: 1em;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+.ig p span {
+  background-color: white;
+
 }
 
 .twitter-info{
   float: left;
-   width: 28%;
+   width: 45%;
   height: auto;
-  margin-left: 50px;
+  padding-left: 50px;
   margin-bottom: 5px;
-  margin-top: 80;
 }
 
 .twitter-info h1 {
   float: right;
   width: 100%;
   font-size: 8em;
-  margin-top: 0;
+  margin-top: 0px;
   text-align: left;
   color: rgb(90, 90, 90);
   line-height: 100px;
 }
 
 .instagram-info{
-  float: left;
-   width: 28%;
+ float: left;
+   width: 45%;
   height: auto;
-  margin-left: 50px;
-  margin-top: 160px;
-  background-color: ;
+  padding-left: 50px;
+  margin-bottom: 5px;
 
 }
 
@@ -2061,9 +2073,11 @@ iframe{
 
 iframe#twitter-widget-0{
   float: right;
-  width: 55% !important;
+  width: 45% !important;
   max-width: 800px !important;
-  margin-right: 20px;
+
+  /*max-margin-right:50px;
+  margin-right: 10px;*/
   margin-top: 25px;
 
 }
@@ -2075,6 +2089,7 @@ iframe#twitter-widget-0{
   display: inline-block;
   position: relative;
   margin: 0 3px;
+  margin-bottom: 60px;
 
 }
 
