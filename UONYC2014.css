@@ -1204,8 +1204,8 @@ filter: grayscale(0%);
 }
 
 #BSSP {
-  background-image: url(http://jpgcreative.com/wp-content/uploads/2012/01/BSSP_0000_Site_A.jpg);
-  background-position: 48% 80%; 
+  background-image: url(https://i.vimeocdn.com/portrait/5061644_300x300.jpg);
+  background-position: 50% 20%; 
   background-size: ;
 
 
@@ -1227,7 +1227,7 @@ filter: grayscale(0%);
 
 
 #ogilvy {
-  background-image: url(http://www.marketingweek.co.uk/Pictures/web/u/g/a/ogilvy.jpg);
+  background-image: url(http://creativebits.org/sites/default/files/ogilvy.jpg);
   background-position: 48% 80%; 
   background-size: cover;
 
