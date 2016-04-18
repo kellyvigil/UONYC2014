@@ -1,0 +1,2609 @@
+body{
+  background-color: rgb(90, 90, 90);
+  padding: 0;
+  margin: 0;
+
+  
+}
+
+
+/* UNIVERSAL --------------------------*/
+
+h2{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  font-size: 200%;
+
+}
+
+h1{
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  font-size: 200%;
+  color: white;
+
+}
+
+
+p{
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #747474;
+  position: center;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+
+ }
+
+.lightbox a {
+  font-size: 50px;
+}
+ 
+a{
+  color: black;
+  
+}
+
+
+
+/* COVER --------------------------*/
+
+.cover-image{
+
+  width: auto;
+  height: 82%;
+   background: url(http://i.imgur.com/ywHxDzg.jpg) no-repeat left center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1000;
+
+}
+
+
+
+
+
+
+.title-cover{
+  position: fixed;
+  width: 100%;
+  height: auto;
+  
+  top: 40%;
+  z-index: ;
+  
+
+
+
+}
+
+.title-cover h1 {
+
+  font-size: 6em;
+  font-weight: 1900;
+  text-align: center;
+  font-family: Helvetica;
+  color: ;
+  margin:  auto;
+  line-height: .9em;
+  z-index: ;
+  position: ;
+  color: white;
+  text-shadow: 0 0 90px black;
+
+
+
+  
+  
+}
+
+
+@media only screen and (max-height:480px) {
+
+  .title-cover h1 {
+  font-size: 2em;
+  font-weight: ;
+  text-align: center;
+  font-family: Helvetica;
+  color: ;
+  line-height: 1.3em;
+  z-index: ;
+  margin: 0px ;
+  text-shadow: none;
+
+}
+
+.title-cover {
+  display: ;
+  position: fixed;
+  width: 100%;
+  height: auto;
+  margin-top: 15%;
+  z-index: ;
+  top: 0px;
+}
+
+  
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+
+  .cover-image {
+
+    overflow: hidden;
+    background-color: rgb(90, 90, 90);
+    background-image: none;
+    width: 100%;
+   
+  }
+
+  
+
+  .title-cover  {
+    position: absolute;
+    width: 100%;
+    padding-top: ;
+
+  }
+
+  .title-cover h1{
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: center;
+}
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+  
+
+  .cover-image {
+
+    overflow: hidden;
+    background-color: rgb(90, 90, 90);
+    background-image: none;
+    width: 100%;
+   
+  }
+
+  
+
+  .title-cover  {
+    position: absolute;
+    width: 100%;
+    padding-top: ;
+
+  }
+
+  .title-cover h1{
+  margin: 0 auto;
+  font-size: 6em;
+  text-align: center;
+}
+
+}
+
+
+/* NAV BAR --------------------------*/
+
+.afix-top{
+  
+}
+
+.afix-top ul{
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  text-align: center;
+
+}
+
+#nav {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  z-index: 1006;
+  text-align: center;
+  display: block;
+  
+  box-shadow: 0 2px 3px  gray;
+
+
+
+}
+
+.fix-to-top {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+}
+
+.fix-to-top ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+
+a:hover{
+  color: ;
+  text-decoration: none;
+}
+
+#nav-agencies a{
+  color: ;
+}
+
+
+.nav-list{
+display: inline-block;
+text-decoration: none;
+height: auto;
+margin-top: 2px;
+
+}
+.nav-id h2{
+  font-size: 1.4em;
+  padding: 0px 80px;
+  margin: 0 auto;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #a4a4a4;
+}
+
+.nav-id h2:hover{
+
+  color: #3c3c3c;
+  text-decoration: none;
+
+}
+
+
+
+.nav-id a{
+  height: 0;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+
+  .nav-id h2{
+  font-size: 18px;
+  font-weight: 200;
+  padding: 0px 18px 0px 12px;
+  margin: 0 auto;
+}
+  .nav-feed {
+    display: none;
+  }
+
+  #locations{
+    display: none;
+  }
+
+  .nav-mobile {
+    display: ;
+  
+}
+
+.nav-agencies {
+  display: none;
+}
+
+}
+
+
+
+
+/* AGENCIES --------------------------*/
+
+@media only screen and (max-width: 768px) {
+  #agencies {
+    display: none;
+
+  }
+}
+
+#agencies{
+  width: 100%;
+  height: 640px;
+  padding-top: ;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  position: ;
+  z-index: 1;
+
+  
+
+
+}
+
+
+
+#map{
+  width:100%;
+  height: 100%; 
+  float: left;
+  position: relative;
+  
+
+}
+
+
+.days{
+ 
+  width:7%;
+  height: 532%;
+  float: left;
+  margin-left: 50px;
+  margin-top: 20px;
+  
+
+
+}
+
+button{
+  width: 100px;
+  border: 1px solid;
+  border-color:rgba(0,0,0, 0.0);  
+  margin-bottom: 22px;
+  background: #FFFFB6;
+  text-align: center;
+
+}
+
+
+button:focus {outline:0;}
+
+button h2{
+  font-size: 30px;
+  color: white;
+
+}
+
+.button-day-color:hover {
+  background: white;
+}
+
+.button-day-color.active {
+  background: white;
+}
+
+.agency-button-color:hover {
+  opacity: .8;
+}
+
+
+
+.agency-button {
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+
+}
+
+
+
+.agency-button h2{
+
+  font-size: 60px;
+  line-height: .8em;
+
+}
+
+.agency-monday:hover {
+-webkit-filter: grayscale(100%);
+filter: grayscale(0%);
+
+}
+
+.agency-tuesday:hover {
+-webkit-filter: grayscale(100%);
+filter: grayscale(0%);
+
+}
+.agency-wednesday:hover {
+-webkit-filter: grayscale(100%);
+filter: grayscale(0%);
+
+}
+
+.agency-thursday:hover {
+-webkit-filter: grayscale(100%);
+filter: grayscale(0%);
+
+}
+
+.agency-friday:hover {
+-webkit-filter: grayscale(100%);
+filter: grayscale(0%);
+
+}
+
+.button-day-color h2 {
+  color: #3c3c3c;
+
+}
+
+
+#agencies-list{
+
+  width: 40%;
+  height: 531px;
+  float: left;
+  margin: 0 auto;
+  background-color: rgb(90, 90, 90);
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 0px;
+  position: ;
+
+
+}
+
+#agencies-list p{
+  color: white;
+}
+
+#agencies-list .details {
+  display: none;
+}
+
+.agencies-home{
+  width: 100%;
+  height: 100%;
+  background-color: ;
+
+
+}
+
+
+.agencies-monday{
+
+  
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  font-size: 40px;
+  position: relative;
+
+}
+
+.agency-monday{
+
+  width: 100%;
+  height: 95px;
+  background-color: ;
+  margin-bottom: 1%;
+  text-align: center;
+  display: ;
+  
+
+
+
+}
+
+.agencies-tuesday{
+  
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  overflow: scroll;
+  position: relative;
+
+
+
+}
+
+.agency-tuesday{
+
+  width: 100%;
+  height: 95px;
+  background-color: ;
+  margin-bottom: 1%;
+  text-align: center;
+  display: ;
+  font-size: 40px;
+  
+
+}
+
+.agencies-wednesday{
+
+  
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  overflow: scroll;
+  position: relative;
+
+
+}
+
+.agency-wednesday{
+
+  width: 100%;
+  height: 95px;
+  background-color: ;
+  margin-bottom: 1%;
+  text-align: center;
+  display: ;
+
+
+}
+
+.agencies-thursday{
+
+
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  overflow: scroll;
+
+}
+
+.agency-thursday{
+
+  width: 100%;
+  height: 95px;
+  background-color: ;
+  margin-bottom: 1%;
+  text-align: center;
+  display: ;
+
+
+}
+
+
+.agencies-friday{
+
+
+  width: 100%;
+  height: 100%;
+  background-color: ;
+  overflow: scroll;
+
+
+}
+
+.agency-friday{
+
+  width: 100%;
+  height: 95px;
+  background-color: ;
+  margin-bottom: 1%;
+  text-align: center;
+  display: ;
+
+
+
+}
+
+#map-info{
+
+  width: 35%;
+  height: 531px;
+  background-color: rgb(90, 90, 90);
+  float: right;
+  margin-right: 30px;
+  padding-right: 20px;
+  
+  
+
+}
+
+.details{
+  margin-right: 10px;
+  height: 531px;
+  background-color: rgb(90, 90, 90);
+  
+}
+
+
+#map-info h1{
+  text-align: center;
+  color: #ededed;
+  font-size: 5em;
+}
+
+#map-info p{
+  padding: 0 20px;
+  font-weight: 100;
+  font-size: 20px;
+  
+  color: #ededed;
+  line-height: 29px;
+  text-align: left;
+
+
+}
+
+
+.desktop-icons {
+  width: 90%;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+
+  
+}
+
+.desktop-icons li{
+  display: inline-block;
+}
+
+.agency-info{
+    width: 100%;
+    height: 50%;
+    background-color: ;
+    display: ;
+}
+
+.agency-info2{
+    width: 100%;
+    height: 50%;
+    background-color: ;
+    display: ;
+}
+
+.bio-map {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px ;
+  
+ 
+}
+
+.bio-map img{
+  width: auto;
+  height: 100%;
+  opacity: .7;
+  
+}
+
+@media only screen and (max-width: 1014px) {
+  
+  .bio-map {
+  width: 50px;
+  height: 50px;
+  margin: 0 0px ;
+  
+ 
+}
+
+.bio-map img{
+  width: auto;
+  height: 100%; 
+  opacity: .7;
+}
+
+  .bio-twitter {
+  width: 50px;
+  height: 50px;
+  margin: 0 0px ;
+  opacity: .7;
+
+}
+
+.bio-portfolio {
+  width: 50px;
+  height: 50px;
+  margin: 0 0px ;
+  opacity: .7;
+  
+}
+  .bio-twitter img{
+  width: 100%;
+  height: auto;
+  
+}
+
+.bio-portfolio img{
+  width: 100%;
+  height: auto;
+  
+} 
+
+#map-info p{
+  padding: 0 20px;
+  font-weight: 100;
+  font-size: 16px;
+  
+  color: #ededed;
+  line-height: 22px;
+  text-align: left;
+
+
+}
+
+#map-info h1{
+  font-size: 40px;
+
+
+}
+
+  }
+
+
+
+
+#WandK{
+  background-image: url(http://c0717682.cdn.cloudfiles.rackspacecloud.com/media/398.jpg);
+  background-position:center; 
+}
+
+#WandK-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#WandK h2{
+  text-shadow: 0px 0px 50px #5C5C5C;
+}
+
+#three60i{
+  background-image: url(http://files.coloribus.com/files/adsarchive/part_1726/17269705/file/oreocookies-the-oreo-blackout-tweet-1024-83953.jpg);
+  background-position: 0% 75%; 
+
+}
+
+#three60i-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+
+}
+
+#oneshow{
+  background-image: url(https://static.squarespace.com/static/52536652e4b007332ef4ecf4/52dec946e4b0ca499f87bce7/52dec974e4b0ca499f88cb26/1328568892947/1000w/DieLine.CreativeWeek1.jpg);
+  background-position: 50% 80%; 
+
+}
+
+#oneshow-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#oneshow-details h1{
+  font-size: 50px;
+ 
+
+}
+
+#oneshow h2{
+  font-size: 40px;
+  text-shadow: 0px 0px 50px #5C5C5C;
+  height: 100%;
+
+}
+
+#bigspaceship{
+  background-image: url(http://i.imgur.com/1EKcT5T.png);
+  background-position: 50% 80%; 
+
+}
+
+
+#bigspaceship-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+
+}
+
+#bigspaceship-button h2{
+  font-size: 45px;
+}
+
+#DDB{
+  background-image: url(http://jazarah.net/blog/wp-content/samer/2010/12/ddb-thumbs.jpg);
+  background-position: 48% 50%; 
+
+}
+
+#DDB-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#huge{
+  background: rgba(236, 0, 140, 1);
+  
+
+}
+
+#huge-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#BBMG{
+  background-image: url(http://bbmg.com/wp-content/uploads/2013/04/What1.jpg);
+  background-position: 48% 50%; 
+  background-size: cover;
+
+}
+
+#BBMG-details{
+  width: 100%;
+ height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#rga{
+  background-image: url(http://officepictures.files.wordpress.com/2012/02/rga_londre_1.jpg);
+  background-position: 50% 90%; 
+  background-size: ;
+
+}
+
+#rga-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#espn{
+  background-image: url(http://www.chicagonow.com/mma-disputed/files/2011/11/espn_mma_live_2-e1269493603655.jpg);
+  background-position: 50% 50%; 
+  background-size: ;
+
+}
+
+#espn-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#tbwa{
+  background-image: url(http://media.glassdoor.com/m/297961/tbwa-chiat-day-office.jpg);
+  background-position: 50% 90%; 
+  background-size: ;
+
+}
+
+#tbwa-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#tbwa h2{
+  font-size: 43px;
+  text-shadow: 0px 0px 50px #5C5C5C;
+  height: 100%;
+  
+
+}
+
+#tbwa-details h1{
+  font-size: 40px;
+  
+}
+
+#radical{
+  background-image: url(http://www.radicalmedia.com/Vault/Thumb?Quality=80&VaultID=2075&ResX=940&ResY=350&Mode=D&v=1398367560);
+  background-position: 48% 60%; 
+
+
+}
+
+#radical-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#strawberry-frog{
+  background-image: url(http://officesnapshots.com/wp-content/uploads/2012/02/106_mad_strawberryfrog2.jpg);
+  background-position: 48% 80%; 
+
+
+}
+
+#strawberry-frog-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#strawberry-frog h2{
+  font-size: 41px;
+   text-shadow: 0px 0px 50px #5C5C5C;
+  height: 100%;
+}
+
+#strawberry-frog-details h1{
+  font-size: 35px;
+   
+}
+
+
+#mcgarrybowen{
+  background-image: url(http://cached.imagescaler.hbpl.co.uk/resize/scaleToFit/420/420/?sURL=http://offlinehbpl.hbpl.co.uk/galleries/OMC/35764_125267_Gallery1stairs-equirect-2400.jpg);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#mcgarrybowen-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#mcgarrybowen h2{
+  font-size: 45px;
+   
+  
+}
+
+#clinton{
+  background-image: url(http://edelman-zippykid.netdna-ssl.com/assets/uploads/2013/09/Clinton-Global-Initiative2.jpg);
+  background-position: 50% 50%; 
+  background-size:;
+
+
+}
+
+#clinton h2{
+  font-size: 45px;
+}
+
+#clinton-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#siegel{
+  background: rgba(0, 0, 0, .7); 
+
+}
+
+#siegel h2 {
+  font-size: 45px;
+}
+
+#siegel-details{
+  width: 100%;
+ height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#digiday{
+  background-image: url(http://i2.wp.com/digiday.com/wp-content/uploads/2014/01/thumbnail_DCMA.jpg?resize=366%2C200);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#digiday h2 {
+  font-size: ;
+  text-shadow: 0px 0px 50px #5C5C5C;
+  height: 100%;
+}
+
+#digiday-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#phd{
+  background-image: url(http://i.imgur.com/xAzBHkF.jpg);
+  background-position: 10% 50%; 
+  background-size: cover;
+
+}
+
+#phd h2 {
+  font-size: ;
+  text-shadow: 0px 0px 50px #5C5C5C;
+  height: 100%;
+}
+
+#phd-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+
+
+#cocollective{
+  background-image: url(http://i.imgur.com/J5AgfVD.jpg);
+  background-position: 40% 33%; 
+  background-size: cover;
+
+}
+
+#cocollective h2 {
+  font-size: 45px;
+  text-shadow: 0px 0px 60px #6e6e6e
+;
+  height: 100%;
+}
+
+#cocollective-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#code{
+  background-image: url(http://designarray.com/images/made/images/uploads/feature_titles/an-interview-with-code-and-theory_590_360_gra_c1.png);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#code-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+#code h2 {
+  font-size: 45px;
+  
+}
+
+#subrosa {
+  background-image: url(http://cdn.psfk.com/wp-content/uploads/2013/12/psfk-pantone-radiant-orchid-2.jpg);
+  background-position: 48% 20%; 
+  background-size: cover;
+
+
+}
+
+#subrosa-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#subrosa h2 {
+  font-size: 45px;
+  
+}
+
+#story {
+  background-color: #ffee00;
+  
+
+}
+
+#story-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#rokkan{
+  background-image: url(http://rokkan.com/wp-content/uploads/2013/01/rkn-office_nyc.jpg);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#rokkan h2 {
+  font-size: ;
+  text-shadow: 0px 0px 50px #5C5C5C;
+  height: 100%;
+}
+
+#rokkan-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#mets {
+  background-image: url(http://www.filminglocations.com/Images/ListingPictures/Original/4844_citifield.JPG);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#mets-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#sparks {
+  background-image: url(http://static.squarespace.com/static/528d3ef5e4b0c14526021317/t/52f02852e4b02fdbc09395a9/1391470682766/SH_Cityscape_Header_shorter.gif);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#sparks-details{
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#sparks h2 {
+  font-size: 45px;
+  
+}
+
+#jwt {
+  background-image: url(http://farm4.static.flickr.com/3466/3925448041_d10fab68fc_o.jpg);
+  background-position: 48% 80%; 
+  background-size: ;
+
+}
+
+#jwt-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#BBDO {
+  background-image: url(http://www.hlw.com/wp-content/themes/hlw/scripts/timthumb.php?src=/wp-content/gallery/bbdo-new-york/bbdo-lobby.jpg&h=300&w=710&zc=1);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#BBDO-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#BBDO h2 {
+  
+  text-shadow: 0px 0px 60px #6e6e6e;
+  height: 100%;
+}
+
+#BSSP {
+  background-image: url(https://i.vimeocdn.com/portrait/5061644_300x300.jpg);
+  background-position: 50% 20%; 
+  background-size: ;
+
+
+}
+
+#BSSP-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#BSSP h2 {
+  
+  text-shadow: 0px 0px 60px #6e6e6e;
+  height: 100%;
+}
+
+
+#ogilvy {
+  background-image: url(http://creativebits.org/sites/default/files/ogilvy.jpg);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#ogilvy-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+
+#grey {
+  background-image: url(http://i.imgur.com/Uo3pUE7.png);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+
+}
+
+#grey-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#grey h2 {
+  
+  text-shadow: 0px 0px 60px #6e6e6e;
+  height: 100%;
+}
+
+#horizon {
+  background-image: url(http://horizon-www.s3.amazonaws.com/images/background_images/hm_bg_contact.jpg);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#horizon-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+#horizon h2 {
+  
+  text-shadow: 0px 0px 60px #6e6e6e;
+  height: 100%;
+  font-size: 42px;
+}
+
+#anomaly {
+  background-image: url(http://i.imgur.com/ZANRbz6.png);
+  background-position: 48% 80%; 
+  background-size: ;
+
+
+}
+
+#anomaly-details{
+
+  
+  width: 100%;
+  height: 531px;
+  background-color: rgb(90, 90, 90); 
+}
+
+
+
+
+
+
+
+/* MOBILE AGENCIES-------------------------- */
+
+@media only screen and (min-width: 769px) {
+  #mobile-calendar {
+    display: none;
+  }
+
+    .nav-mobile{
+    display: none;
+
+  
+  }
+}
+
+#mobile-calendar{
+
+  width: 100%;
+  padding-top: 0px;
+
+
+}
+
+
+
+.mobile-agency .agency-inner {
+  display: none;
+
+}
+
+
+.mobile-day {
+
+  width: 100%;
+  height: 150px;
+  background-color: #FFFFB6;
+  margin-top: 1px;
+  font-size: 30px;
+  text-align: center;
+  font-family: ;
+  box-shadow: 0 22px -20px  black;
+  margin-bottom: 2px;
+
+
+}
+
+.mobile-day h2 {
+
+color: rgb(90, 90, 90);
+margin: 0 auto;
+padding-top: 20px;
+font-size: 90px;
+font-weight: 800px
+}
+
+.mobile-agency {
+  width: 100%;
+  height: 150px;
+  background-color: #E1E1E1;
+  margin-top: 1px;
+  text-align: center;
+
+}
+
+.mobile-agency h2 {
+  width: 100%
+}
+
+.agency-inner  {
+  position: fixed;
+  right:9%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  display: block;
+
+}
+
+.agency-name p{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800px;
+  color: white;
+  line-height: .9em;
+
+}
+
+
+.agency-bio {
+  max-width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+
+}
+
+.agency-bio p {
+  color: white;
+  width: 90%;
+  height: auto;
+  text-align: justify-center;
+  overflow: none;
+  margin: 0 auto;
+  line-height: 14px;
+  font-size: 14px;
+
+}
+
+
+.agency-icons{
+  width: 100%;
+  height: ;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+
+ 
+}
+
+.agency-icons li{
+  display: inline-block;
+}
+
+
+.agency-twitter {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px ;
+  
+ 
+}
+
+.agency-website {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px ;
+
+}
+
+.agency-map {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px ;
+  
+}
+
+.agency-twitter img{
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+}
+
+.agency-website img{
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+}
+
+.agency-map img{
+  width: auto;
+  height: 100%;
+  text-decoration: none;
+}
+
+.mobile-agency h2 {
+
+  color: white;
+  font-size: 40px;
+
+}
+
+
+
+
+#WandK-mobile {
+  background-image: url(http://c0717682.cdn.cloudfiles.rackspacecloud.com/media/398.jpg);
+  background-position: 48% 50%; 
+  background-size: cover;
+
+}
+
+#WandK-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 75px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#three60i-mobile {
+  background-image: url(http://files.coloribus.com/files/adsarchive/part_1726/17269705/file/oreocookies-the-oreo-blackout-tweet-1024-83953.jpg);
+  background-position: 10% 75%; 
+  background-size: cover;
+
+}
+
+#three60i-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size:75px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#oneshow-mobile {
+  background-image: url(https://static.squarespace.com/static/52536652e4b007332ef4ecf4/52dec946e4b0ca499f87bce7/52dec974e4b0ca499f88cb26/1328568892947/1000w/DieLine.CreativeWeek1.jpg);
+  background-position: 50% 85%; 
+  background-size: ;
+
+}
+
+#oneshow-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 45px;
+  padding-top: 3px;
+  
+  height: 100%;
+}
+
+#bigspaceship-mobile {
+  background-image: url(http://i.imgur.com/1EKcT5T.png);
+  background-position: 50% 85%; 
+  background-size: ;
+
+}
+
+#bigspaceship-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 55px;
+  padding-top: 10px;
+  
+  height: 100%;
+}
+
+#DDB-mobile {
+  background-image: url(http://jazarah.net/blog/wp-content/samer/2010/12/ddb-thumbs.jpg);
+  background-position: 50% 50%; 
+  background-size: ;
+
+}
+
+#DDB-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#HUGE-mobile {
+  background: rgba(236, 0, 140, 1);
+  background-position: 50% 50%; 
+  background-size: ;
+
+}
+
+#HUGE-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#rga-mobile {
+  background-image: url(http://officepictures.files.wordpress.com/2012/02/rga_londre_1.jpg);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#rga-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#bbmg-mobile {
+  background-image: url(http://bbmg.com/wp-content/uploads/2013/04/What1.jpg);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#BBMG-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 20px;
+  
+  height: 100%;
+}
+
+#radical-mobile {
+  background-image: url(http://www.radicalmedia.com/Vault/Thumb?Quality=80&VaultID=2075&ResX=940&ResY=350&Mode=D&v=1398367560);
+  background-position: 48% 60%; 
+  background-size: ;
+}
+
+#radical-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 55px;
+  padding-top: 35px;
+  
+  height: 100%;
+}
+
+#strawberry-mobile {
+  background-image: url(http://officesnapshots.com/wp-content/uploads/2012/02/106_mad_strawberryfrog2.jpg);
+  background-position: 48% 80%; 
+  background-size: ;
+
+}
+
+#strawberry-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  
+  height: 100%;
+}
+
+#mcgarry-mobile {
+  background-image: url(http://cached.imagescaler.hbpl.co.uk/resize/scaleToFit/420/420/?sURL=http://offlinehbpl.hbpl.co.uk/galleries/OMC/35764_125267_Gallery1stairs-equirect-2400.jpg);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+}
+
+#mcgarry-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  
+  height: 100%;
+}
+
+#espn-mobile {
+  background-image: url(http://www.chicagonow.com/mma-disputed/files/2011/11/espn_mma_live_2-e1269493603655.jpg);
+  background-position: 50% 50%; 
+  background-size: ;
+
+}
+
+#espn-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 35px;
+  
+  height: 100%;
+}
+
+#clinton-mobile {
+  background-image: url(http://edelman-zippykid.netdna-ssl.com/assets/uploads/2013/09/Clinton-Global-Initiative2.jpg);
+  background-position: 50% 50%; 
+  background-size: ;
+
+}
+
+#clinton-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#siegel-mobile {
+  background: rgba(0, 0, 0, .7)
+
+}
+
+#siegel-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#phd-mobile {
+  background-image: url(http://i.imgur.com/xAzBHkF.jpg);
+  background-position: 10% 50%; 
+  background-size: cover;
+
+}
+
+#phd-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#co-mobile {
+  background-image: url(http://i.imgur.com/J5AgfVD.jpg);
+  background-position: 20% 73%; 
+  background-size: ;
+
+}
+
+#co-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 35px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#code-mobile {
+  background-image: url(http://designarray.com/images/made/images/uploads/feature_titles/an-interview-with-code-and-theory_590_360_gra_c1.png);
+  background-position: 48% 80%; 
+  background-size: cover;
+
+}
+
+#code-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#subrosa-mobile {
+  background-image: url(http://cdn.psfk.com/wp-content/uploads/2013/12/psfk-pantone-radiant-orchid-2.jpg);
+  background-position: 50% 20%; 
+  background-size: cover;
+
+}
+
+#subrosa-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#story-mobile {
+  background-color: #ffee00;
+
+}
+
+#story-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 60px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#rokkan-mobile {
+  background-image: url(http://rokkan.com/wp-content/uploads/2013/01/rkn-office_nyc.jpg);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#rokkan-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 50px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#mets-mobile {
+  background-image: url(http://www.filminglocations.com/Images/ListingPictures/Original/4844_citifield.JPG);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#mets-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 50px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#sparks-mobile {
+  background-image: url(http://static.squarespace.com/static/528d3ef5e4b0c14526021317/t/52f02852e4b02fdbc09395a9/1391470682766/SH_Cityscape_Header_shorter.gif);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#sparks-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 40px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#jwt-mobile {
+  background-image: url(http://farm4.static.flickr.com/3466/3925448041_d10fab68fc_o.jpg);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#jwt-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#bbdo-mobile {
+  background-image: url(http://www.hlw.com/wp-content/themes/hlw/scripts/timthumb.php?src=/wp-content/gallery/bbdo-new-york/bbdo-lobby.jpg&h=300&w=710&zc=1);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#bbdo-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#bssp-mobile {
+  background-image: url(http://jpgcreative.com/wp-content/uploads/2012/01/BSSP_0000_Site_A.jpg);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#bssp-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 90px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#ogilvy-mobile {
+  background-image: url(http://www.marketingweek.co.uk/Pictures/web/u/g/a/ogilvy.jpg);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#ogilvy-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#grey-mobile {
+  background-image: url(http://i.imgur.com/Uo3pUE7.png);
+  background-position: 50% 80%; 
+  background-size: cover;
+
+}
+
+#grey-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 80px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#horizon-mobile {
+  background-image: url(http://horizon-www.s3.amazonaws.com/images/background_images/hm_bg_contact.jpg);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#horizon-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 70px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#digiday-mobile {
+  background-image: url(http://i2.wp.com/digiday.com/wp-content/uploads/2014/01/thumbnail_DCMA.jpg?resize=366%2C200);
+  background-position: 50% 50%; 
+  background-size: cover;
+
+}
+
+#digiday-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 70px;
+  padding-top: 35px;
+  height: 100%;
+}
+
+#anomaly-mobile {
+  background-image: url(http://i.imgur.com/ZANRbz6.png);
+  background-position: 50% 80%; 
+  background-size: ;
+
+}
+
+#anomaly-mobile h2{
+  margin: 0 auto;
+  color: white;
+  font-size: 45px;
+  padding-top: 45px;
+  height: 100%;
+}
+
+/* FEED --------------------------*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+  #feed{ display: none;
+  }
+
+ }
+
+
+
+#feed{
+  position: relative;
+  width: 100%;
+  height: 1065px;
+  margin: 20px 0;
+  margin-top: 50px;
+  background-color: #FFFFB6;
+  box-shadow: 0 0px 8px  black;
+
+
+
+}
+
+.twitter-feed{
+  width: 100%;
+  height: 450px;
+  margin-top: ;
+}
+
+
+
+.instagram-feed{
+
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+}
+
+
+.main{
+  padding-top: 20px;
+  margin-right: ;
+  width: 100%;
+  height: 100%;
+  float: right;
+  
+  overflow: scroll;
+  padding: 0;
+  margin: 0;
+  margin-left: 1%;
+  text-align: center;
+  position: relative;
+  background-color: #FFFFB6; 
+  border-radius: 5px;
+  border-top: 
+  
+
+
+}
+
+.ig-wrapper {
+  width: 45%;
+  max-width: 800px;
+  height: 550px;
+  float: right;
+  /*margin-right: 10px;*/
+  border-radius: ;
+  margin-top: ;
+  
+ 
+
+}
+
+
+
+.ig p {
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+.ig p span {
+  background-color: white;
+
+}
+
+.twitter-info{
+  float: left;
+   width: 45%;
+  height: auto;
+  padding-left: 50px;
+  margin-bottom: 5px;
+}
+
+.twitter-info h1 {
+  float: right;
+  width: 100%;
+  font-size: 8em;
+  margin-top: 0px;
+  text-align: left;
+  color: rgb(90, 90, 90);
+  line-height: 100px;
+}
+
+.instagram-info{
+ float: left;
+   width: 45%;
+  height: auto;
+  padding-left: 50px;
+  margin-bottom: 5px;
+
+}
+
+.instagram-info h1 {
+  float: right;
+  text-align: left;
+  width: 100%;
+  font-size: 8em;
+  color: rgb(90, 90, 90);
+  line-height: 100px;
+  
+
+}
+
+iframe{
+	width: 55%;
+}
+
+iframe#twitter-widget-0{
+  float: right;
+  width: 45% !important;
+  max-width: 800px !important;
+
+  /*max-margin-right:50px;
+  margin-right: 10px;*/
+  margin-top: 25px;
+
+}
+
+.ig{
+  
+  width: 99%;
+  min-width: 200px;
+  display: inline-block;
+  position: relative;
+  margin: 0 3px;
+  margin-bottom: 60px;
+
+}
+
+
+
+.ig img{
+
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+ width: auto;
+ 
+}
+
+@media only screen and (max-width: 900px) {
+
+.twitter-info{
+  float: left;
+   width: 28%;
+  height: auto;
+  margin-left: 50px;
+}
+
+.twitter-info h1 {
+  float: right;
+  
+  width: 100%;
+  font-size: 6em;
+  margin-top: 0;
+  text-align: left;
+  
+}
+
+.instagram-info{
+  float: left;
+   width: 28%;
+  height: auto;
+  margin-left: 50px;
+  margin-top: 120px;
+
+}
+
+.instagram-info h1 {
+  float: right;
+  text-align: left;
+  width: 100%;
+  font-size: 6em;
+
+  
+
+}
+}
+
+/* BIOS --------------------------*/
+
+#bios{
+
+  width: 100%;
+  height: auto;
+  text-align: center;
+  float: bottom;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: ;
+
+
+}
+
+
+
+
+.bio-box{
+
+    width: 235px;
+    height: auto;
+    margin: 5px;
+    color: black;
+    margin: 0, auto;
+    display: inline-block;
+    padding: 0;
+    -webkit-filter: grayscale(85%);
+  filter: grayscale(150%);
+    
+
+}
+
+.bio-box:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(100%);
+}
+
+
+li img{
+
+    width: 235px;
+    height: auto;
+     border: 10px rgb(90, 90, 90) transparent;
+  /*  -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;*/
+
+  }
+
+.bio-name{
+  height: auto;
+
+}
+
+.bio-name p{
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  font-weight: 1000px;
+
+}
+
+
+
+
+.inner{
+  position: fixed;
+  right:9%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  display: block;
+
+}
+
+.bio-pic {
+  display: ;
+  width: 40%;
+  height: auto;
+  margin: 20px 0 0 6%;
+}
+
+.inner-bio {
+  max-width: 50%;
+  height: auto;
+  float: right;
+  margin: 20px 0 0 0;
+  padding: 0 10% 0 10px;
+
+}
+
+
+
+.inner-bio p {
+  color: black;
+  width: 100%;
+  height: auto;
+  text-align: justify-center;
+  overflow: none;
+  font-size: 14px;
+  line-height: 1.2em;
+
+}
+
+
+
+.bio-box .inner {
+  display: none;
+
+}
+
+.bio-icons {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bio-icons li{
+  display: inline-block;
+}
+
+
+.bio-insta {
+  width: 40px;
+  height: 40px;
+  margin: 0 30px ;
+  opacity: .7;
+  
+ 
+}
+
+.bio-twitter {
+  width: 50px;
+  height: 50px;
+  margin: 0 30px ;
+  opacity: .7;
+
+}
+
+.bio-portfolio {
+  width: 50px;
+  height: 50px;
+  margin: 0 30px ;
+  opacity: .7;
+  
+}
+
+
+.bio-insta img{
+  width: 100%;
+  height: auto;
+  
+}
+
+.bio-twitter img{
+  width: 100%;
+  height: auto;
+  
+}
+
+.bio-portfolio img{
+  width: 100%;
+  height: auto;
+  
+} 
+
+.inner-bio p{
+color: white;
+
+}
+
+
+
+
+
+
+/* Mobile Bios-------------------------- */
+@media only screen and (min-width: 769px) {
+
+#bios-mobile{
+  display: none;
+}
+
+
+}
+
+
+  @media only screen and (max-width: 768px) {
+
+#bios{
+  display: none;
+}
+
+#bios-mobile{
+  display: ;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  float: bottom;
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: rgb(90, 90, 90) ;
+
+
+}
+
+
+
+
+.bio-box{
+
+    width: 280px;
+    height: 220px;
+    color: black;
+    margin: 0, auto;
+    display: inline-block;
+    padding: 0;
+    border-radius: 2px;
+
+}
+
+.bio-box img{
+  width: 100%;
+  height: auto;
+}
+
+
+.inner{
+  position: fixed;
+  right:9%;
+  top: ;
+  width: 80%;
+  height: 80%;
+  display: block;
+
+}
+
+.bio-name {
+  margin-top: -10px;
+}
+
+
+
+.bio-name p{
+  font-size: 2.5em;
+  width: 100%;
+  font-weight: 400px;
+  line-height: 1em;
+  
+}
+
+.inner-bio {
+  max-width: 100%;
+  height: auto;
+  margin: 4px 0 0 0;
+  padding: 0 4px 0 4px;
+
+}
+
+
+.bio-pic  {
+  display: none;
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+  display: ; 
+  text-align: center;
+}
+
+
+
+
+
+.inner-bio p {
+  color: white;
+  width: 90%;
+  height: auto;
+  text-align: left;
+  overflow: none;
+  margin: 0 auto;
+  line-height: 1.0;
+  font-size: 20px;
+
+}
+
+.bio-box .inner {
+  display: none;
+
+}
+
+.bio-icons{
+  display: inline-block;
+  height: auto;
+  width: 100%;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+
+ 
+}
+
+.bio-insta {
+  width: 20px;
+  height: 20px;
+  margin: 0 20px ;
+  
+ 
+}
+
+.bio-twitter {
+  width: 20px;
+  height: 20px;
+  margin: 0 20px ;
+
+}
+
+.bio-portfolio {
+  width: 20px;
+  height: 20px;
+  margin: 0 20px ;
+  
+}
+
+.bio-insta img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-twitter img{
+  width: 100%;
+  height: 100%;
+}
+
+.bio-portfolio img{
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.speacial-thanks{
+  width: 100%;
+  height: 55px;
+  background-color: #FFFFB6;
+  position: ;
+  box-shadow: 0 0px 4px  black;
+}
+
+
+}
+
+
+/*
+
+.lightbox {
+  position: fixed;
+  right:9%;
+  top: 9%;
+  width: 80%;
+  height: 89%;
+  display: none;
+  z-index: 2000;
+  opacity: 1;
+  color: 333;
+  background-color: rgba(0, 0, 0, .5);
+
+}
+
+.lightbox-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 1005;
+  display: none;
+  
+}
+} */
+
+.speacial-thanks{
+  width: 100%;
+  height: 35px;
+  background-color: #FFFFB6;
+  position: ;
+  box-shadow: 0 0px 4px  black;
+}
+
+.speacial-thanks p{
+  font-size: 14px;
+  color: rgb(90, 90, 90);
+  padding:0;
+  margin: 0;
+
+}
+
+.speacial-thanks a {
+  text-decoration: none;
+  color: #509930 ;
+
+}
+
+.speacial-thanks a:hover {
+  text-decoration: none;
+  color: #3c3c3c;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .speacial-thanks{
+  width: 100%;
+  height: 35px;
+  background-color: #FFFFB6;
+  position: ;
+  box-shadow: 0 0px 4px  black;
+}
+
+  .speacial-thanks p{
+  font-size: 12px;
+  color: rgb(90, 90, 90);
+  padding:0;
+  margin: 0;
+
+}
+}
+
+
+.lightbox {
+  position: fixed;
+  right:9%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  display: none;
+  z-index: 2000;
+  opacity: 1;
+  color: 333;
+  background-color: rgba(50, 50, 50, .8);
+
+}
+
+.lightbox-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 1005;
+  display: none;
+  
+}
+}
