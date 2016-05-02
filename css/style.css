@@ -1,0 +1,333 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700|Ubuntu:400,300,500);
+{font-family: 'Ubuntu', sans-serif;
+font-family: 'Lato', sans-serif;
+}
+.index {
+  background-color: rgba(192,223,217,1);
+}
+.agencies {
+  background-color:rgba(192,223,217,1);
+  padding-left: 2%;
+}
+.people {
+  background:rgba(233,236,229,1);
+}
+.row. {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+#Container .mix{
+	display: none;
+}
+#Container {
+	margin-bottom: 4.5%;
+}
+.manifesto {
+	text-align: center;
+	font-size: 12px;
+	padding: 5%;
+	background-color: #F0FFFF;
+}
+.noShow {
+	display: none;
+	float: left;
+	position: fixed;
+	z-index: 999;
+	width: 50%;
+	height: auto;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 3%; 
+	width:100%; 
+    height:100%; 
+    background:url(../img/overlay.png) repeat; 
+}
+#wrapper { 
+    margin:0 auto; 
+    background:#fff; 
+    text-align:left; 
+    border-top:none;
+    border-radius:0 0 5px 5px;
+    -moz-border-radius:0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px; 
+}
+.Nm {
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 1.8em;
+}
+.blurb {
+	margin-left: 30%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1em;
+}
+.blurb a {
+	color:rgba(59,58,54,1);
+	z-index: 999;
+}
+.blurb a:hover {
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+}
+.no{
+  background:rgba(233,236,229,1);	
+}
+.photo {
+	float: left;
+	width: 25%;
+	margin: 5% 0 0 5%;	
+}
+.about {
+	padding: 10%;
+	background:rgba(233,236,229,1);
+	width: 100%;
+	height: 100%;	
+}
+.border {
+	background-color: rgba(179,194,191,0.5);
+	padding: 3%;
+	position: fixed;
+	top: 18%;
+	right: 15%; 
+	left: 15%;
+	width: 70%;
+	height: 52%;  
+}
+.name {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	z-index: 90;
+	left: 8%;
+	text-align: center;
+}
+.gif:hover {
+    opacity: 0.5;
+}
+.filter {
+	float: left;
+	padding-left: 4%;
+	line-height: 50px;
+}
+.fil {
+	background:rgba(233,236,229,1);
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-size: 0.8em;
+	z-index: 9999;
+	width: 110%;
+	color:rgba(59,58,54,1);
+}
+header{
+  width:100%; 
+  line-height:50px;
+}
+.hamburger{
+  background-color:rgba(59,58,54,1);
+  position:fixed;
+  top:2%;
+  left:1%;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:rgba(255,255,255,1);
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background-color:rgba(59,58,54,1);
+  position:fixed;
+  top:2%;
+  left:1%;
+  padding:8px 17px 0px 17px;
+  color:rgba(255,255,255,1);
+  border:0;
+  font-size:3em;
+  line-height:38px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu {z-index:1000000; font-weight:900; font-size:3em; width:100%; height: 100%; background:rgba(179,194,191,1);  position:fixed; text-align:center;}
+.menu ul {margin: 0; padding: 0 0 2% 0; list-style-type: none; list-style-image: none; height: 100%; background:rgba(255,255,255,0.5);}
+.menu li {display: block;   padding:50px 0 50px 0;}
+.menu ul li a {text-decoration:none;  margin: 0px; color:rgba(255,255,255,1);}
+.menu ul li a:hover { width: 25%; color: rgba(59,58,54,1); text-decoration:none;}
+.menu a {text-decoration:none; color:rgba(255,255,255,1); font-family: 'Lato', sans-serif;}
+.menu a:hover {text-decoration: none; color:rgba(59,58,54,1);}
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+#tri{
+	position: absolute;
+	top: 0;
+	margin-left: -20%;
+}
+.content {
+	color: rgba(255,255,255,1);
+	text-align: left;
+	padding: 1%;
+	position: absolute;
+	top: 0;
+	margin: 16% 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 1.25em;
+	transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+	animation: slide-in 3s forwards;
+    -webkit-animation: slide-in 3s forwards;
+}
+@keyframes slide-in {
+    100% { transform: translateX(0%); }
+}
+@-webkit-keyframes slide-in {
+    100% { -webkit-transform: translateX(0%); }
+}
+#man {
+	color: rgba(255,255,255,1);
+	text-align: right;
+	width: 50%;
+	padding: 3%;
+	position: absolute;
+	left: 0; 
+	top: 0;
+	transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+	animation: slide-in 3s forwards;
+    -webkit-animation: slide-in 3s forwards;	
+}
+#uo {
+	font-size: 5.75em; 
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	margin-top: 35%;
+}
+#sixteen {
+	font-size: 9em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	line-height: 50%;
+}
+#email {
+	margin: 25% 0;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+#email a {
+	color: rgba(59,58,54,1);
+}
+#nyc {
+	background-color: rgba(192,223,217,1);
+}
+.nycHome {
+	opacity: 0.6;
+}
+
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1800px) {
+	.content {
+		font-size: 2em;
+	}
+	.fil {
+		font-size: 1.5em;
+	}
+	#email{
+		font-size: 1.5em;
+	}
+	.menu li {
+		padding:3% 0 3% 0;
+		font-size: 1.5em;
+	}
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
+	.blurb {
+		font-size: 1.5em;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.menu li {
+		padding:3% 0 3% 0;
+	}
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	#man {
+		margin-top: 0%;
+		width: 100%;
+		transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+		animation: slide-in 3s forwards;
+        -webkit-animation: slide-in 3s forwards;
+	}
+	.content {
+		width: 50%;
+		margin: 0% 0 0 5%;
+		transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+		animation: slide-in 3s forwards;
+        -webkit-animation: slide-in 3s forwards;
+	}
+	.menu li {
+		padding:3% 0 3% 0;
+	}
+	.menu ul {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+
+
