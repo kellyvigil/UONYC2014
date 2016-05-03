@@ -228,8 +228,9 @@ header{
 	line-height: 50%;
 }
 #email {
-	margin: 25% 0;
+	margin: 8% 0;
 	text-align: center;
+	font-size: 0.75em;
 	font-family: 'Ubuntu', sans-serif;
 }
 #email a {
@@ -242,9 +243,6 @@ header{
 	opacity: 0.6;
 }
 
-/* Paste this css to your style sheet file or under head tag */
-/* This only works with JavaScript, 
-if it's not present, don't show loader */
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
