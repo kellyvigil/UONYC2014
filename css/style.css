@@ -288,6 +288,9 @@ header{
 		padding: 0;
 		margin: 0;
 	}
+	#email {
+		margin-top: 15%;
+	}
 }
 
 /* Portrait tablets and small desktops */
@@ -314,6 +317,9 @@ header{
 	.menu ul {
 		padding: 0;
 		margin: 0;
+	}
+	#email {
+		margin-top: 15%;
 	}
 }
 
