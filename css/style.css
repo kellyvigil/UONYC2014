@@ -183,10 +183,9 @@ header{
 .content {
 	color: rgba(255,255,255,1);
 	text-align: left;
-	padding: 1%;
 	position: absolute;
 	top: 0;
-	margin: 16% 0;
+	margin: 15% 0;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
 	letter-spacing: 2px;
@@ -253,6 +252,14 @@ header{
 	height: 100%;
 	z-index: 9999;
 	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
+
+#sojc {
+	margin-left: 4%;
+}
+
+#spacer{
+	height: 25px;
 }
 
 /* Large desktops and laptops */
