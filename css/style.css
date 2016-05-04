@@ -312,11 +312,18 @@ header{
 	}
 	.content {
 		width: 50%;
-		margin: 0% 0 0 5%;
+		margin: 3.5% 0 0 5%;
+		font-size: 1.5em;
 		transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
 		animation: slide-in 3s forwards;
         -webkit-animation: slide-in 3s forwards;
+	}
+	.fil {
+		font-size: 0.7em;
+	}
+	.blurb {
+		font-size: 1.2em;
 	}
 	.menu li {
 		padding:3% 0 3% 0;
