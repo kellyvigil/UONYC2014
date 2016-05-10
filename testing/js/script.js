@@ -7,8 +7,8 @@ $(document).ready(function() {
 		  	if ($(gifs[i]).inView(10)){
 		  		$(gifs[i]).trigger("unveil");
 		  	}
-		}
-	  }, 200);
+		} 
+	  }, 400);
 	// $(".gif").lazyload();
 	$(function(){
 		$('#Container').mixItUp();
