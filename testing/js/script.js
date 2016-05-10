@@ -26,6 +26,10 @@ $(document).ready(function() {
         $('.myDivider').each(function() { $(this).hide(); });
         $('.exit').on('click', function() { $('.myDivider').hide(); })
         $(correspondingDiv).show();
+        var imageAsset = $(correspondingDiv).find(".photo");
+        if (imageAsset.length > 0){
+        	$(imageAsset).unveil();
+        }
     });
 
 	$( '.cross' ).hide();
