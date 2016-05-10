@@ -1,12 +1,14 @@
 $(document).ready(function() { 
 
 	  $(".gif").unveil();
-	  var gifs = $(".gifs");
-	  for (var i=0; i<gifs.length; i++){
-	  	if ($(gifs[i]).inView(400)){
-	  		$(gifs[i]).trigger("unveil");
-	  	}
-	  }
+	  var gifs = $(".gif");
+	  setTimeout(function(){
+	  	for (var i=0; i<gifs.length; i++){
+		  	if ($(gifs[i]).inView(10)){
+		  		$(gifs[i]).trigger("unveil");
+		  	}
+		}
+	  }, 200);
 	// $(".gif").lazyload();
 	$(function(){
 		$('#Container').mixItUp();
