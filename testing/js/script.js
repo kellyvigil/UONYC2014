@@ -1,6 +1,13 @@
 $(document).ready(function() { 
 
-	$(".gif").lazyload();
+	  $(".gif").unveil();
+	  var gifs = $(".gifs");
+	  for (var i=0; i<gifs.length; i++){
+	  	if ($(gifs[i]).inView(400)){
+	  		$(gifs[i]).trigger("unveil");
+	  	}
+	  }
+	// $(".gif").lazyload();
 	$(function(){
 		$('#Container').mixItUp();
 	});
